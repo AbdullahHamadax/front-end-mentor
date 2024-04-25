@@ -12,7 +12,7 @@ Frontend Mentor is a platform that provides a variety of frontend coding challen
 ### 1. QR code component
 - **Description**: This project involved creating a QR code web page. 
 - **Technologies Used**: HTML, CSS.
-- **Live Demo**: [Qr-code](https://qr-code-seven-pied.vercel.app/)
+- **Live Demo**: [QR Code Component](https://qr-code-seven-pied.vercel.app/)
 
 
 ## Getting Started 🚀
