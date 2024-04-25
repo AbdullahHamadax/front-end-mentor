@@ -8,8 +8,7 @@ Frontend Mentor is a platform that provides a variety of frontend coding challen
 ## Projects completed
 ### 1. QR Code Generator
 - **Description**: This project involved creating a QR code generator web application. Users can input text or a URL and generate a QR code for it.
-- **Technologies Used**: HTML, CSS, JavaScript
-- **Live Demo**: [QR Code Generator](#)
+- **Technologies Used**: HTML, CSS.
 
 
 ## Getting Started
