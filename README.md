@@ -9,7 +9,7 @@ Frontend Mentor is a platform that provides a variety of frontend coding challen
 > This is a platform where the sole objective is to replicate the given design as closely as possible. As I'm still a beginner, my code may contain errors and unnecessary CSS properties. However, with each project, I'm learning and improving, and I'll continue to refine my code as my skills progress.
 
 ## Projects completed ✅ 
-### 1. QR Code Generator
+### 1. QR code component
 - **Description**: This project involved creating a QR code web page. 
 - **Technologies Used**: HTML, CSS.
 
