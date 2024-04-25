@@ -6,16 +6,26 @@
   padding: 0;
   border: none;
   font-family: "Outfit", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #d6e2f0;
+  height: 100vh;
 }
 
-p,
+p {
+  font-weight: 700px;
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+}
+
 h2 {
-  background-color: white;
-}
-
-img {
-  max-width: 100%;
+  font-weight: 400px;
+  color: hsl(218, 44%, 22%);
 }
 
 .attribution {
@@ -27,18 +37,20 @@ img {
 }
 
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: white;
-  border: 50px solid white;
-  border-radius: 20px;
-  margin: auto;
   max-width: 350px;
-  height: 500px;
+  height: 540px;
+  padding: 15px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+h2,
+p {
+  padding: 15px;
 }
 
 img {
-  border-radius: 25px;
-  overflow: hidden;
+  max-width: 100%;
+  border-radius: 10px;
 }
