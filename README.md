@@ -17,7 +17,7 @@ Frontend Mentor is a platform that provides a variety of frontend coding challen
 ### 2. Blog card
 - **Description**: This project involved creating a simple blog card page. 
 - **Technologies Used**: HTML, CSS.
-- **Live Demo**: [Blog card](https://blog-card-sable-two.vercel.app/)
+- **Live Demo**: [Blog card](https://blog-card-inky.vercel.app/)
 
 
 ## Getting Started 🚀
