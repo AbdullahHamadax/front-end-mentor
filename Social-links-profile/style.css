@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+/* ----Original color palette---- */
+
+/* :root {
+  --green-background: hsl(75, 94%, 57%);
+  --paragraph-size: 14px;
+  --main-background: hsl(0, 0%, 8%);
+  --card-background: hsl(0, 0%, 12%);
+  --links-background: hsl(0, 0%, 20%);
+  --white-color: hsl(0, 0%, 100%);
+  --header-weight: 700;
+  --paragraph-weight: 400;
+  --links-weight: 600;
+} */
+
+/* ----Custom color palette---- */
+
+:root {
+  --green-background: #9290c3;
+  --paragraph-size: 14px;
+  --main-background: #070f2b;
+  --card-background: #1b1a55;
+  --links-background: #535c91;
+  --white-color: hsl(0, 0%, 100%);
+  --header-weight: 700;
+  --paragraph-weight: 400;
+  --links-weight: 600;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--main-background);
+  text-align: center;
+}
+
+img {
+  margin: auto;
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: 25px;
+  color: var(--white-color);
+  font-weight: var(--header-weight);
+}
+
+.location {
+  color: var(--green-background);
+  font-weight: var(--header-weight);
+}
+
+.about {
+  margin-top: 10px;
+  color: var(--white-color);
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 35px;
+  max-width: 400px;
+  background-color: var(--card-background);
+  margin-bottom: 35px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.links p {
+  font-weight: var(--links-weight);
+  color: var(--white-color);
+  background-color: var(--links-background);
+  padding: 15px 15px;
+  border-radius: 8px;
+  width: 320px;
+}
+
+.links p:hover {
+  color: var(--links-background);
+  cursor: pointer;
+  background-color: var(--green-background);
+}
+
+.attribution {
+  font-size: 14px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
