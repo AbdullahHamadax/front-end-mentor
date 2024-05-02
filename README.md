@@ -16,7 +16,8 @@ Frontend Mentor is a platform that provides a variety of frontend coding challen
 
 ### 2. Blog card
 - **Description**: This project involved creating a simple blog card page. 
-- **Technologies Used**: <a href="https://skillicons.dev">
+- **Technologies Used**: 
+<a href="https://skillicons.dev">
       <img src="https://skillicons.dev/icons?i=html,css" width=50px height=50px />
     </a>
 - **Live Demo**: [Blog card](https://blog-card-inky.vercel.app/)
