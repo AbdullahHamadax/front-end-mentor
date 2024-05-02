@@ -22,7 +22,7 @@ Frontend Mentor is a platform that provides a variety of frontend coding challen
 ### 3. Social links profile:
 - **Description**: This project involved creating a simple blog card page. 
 - **Technologies Used**: HTML, CSS.
-- **Live Demo**: [Blog card](https://social-links-profile-two-azure.vercel.app/)
+- **Live Demo**: [Social links profile](https://social-links-profile-two-azure.vercel.app/)
 
 
 ## Getting Started 🚀
