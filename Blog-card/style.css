@@ -38,17 +38,17 @@ img {
   font-weight: var(--paragraph-weight);
 }
 
-#learning{
-    font-size: 1rem;
-    font-weight: 800;
-    border: 1px black solid;
-    border: none;
-    display: inline-block;
-    width: fit-content;
-    max-width: 100%;
-    padding: 5px 10px;
-    border-radius: 5px;
-    background-color: var(--yellow-background);
+#learning {
+  font-size: 1rem;
+  font-weight: 600;
+  border: 1px black solid;
+  border: none;
+  display: inline-block;
+  width: fit-content;
+  max-width: 100%;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: var(--yellow-background);
 }
 
 h1 {
