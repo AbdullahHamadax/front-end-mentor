@@ -24,6 +24,11 @@ Frontend Mentor is a platform that provides a variety of frontend coding challen
 - **Technologies Used**: HTML, CSS.
 - **Live Demo**: [Social links profile](https://social-links-profile-two-azure.vercel.app/)
 
+### 4. Omelette Recipe Page:
+- **Description**: This project involved creating a static page for an Omelette recipe. 
+- **Technologies Used**: HTML, **TailwindCSS**.
+- **Live Demo**: [Omelette Recipe Page](https://recipe-page-dun-xi.vercel.app/)
+
 
 ## Getting Started 🚀
 To view the source code or contribute to any of the projects in this repository, follow these steps:
