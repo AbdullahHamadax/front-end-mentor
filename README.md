@@ -29,6 +29,11 @@ Frontend Mentor is a platform that provides a variety of frontend coding challen
 - **Technologies Used**: HTML, **TailwindCSS**.
 - **Live Demo**: [Omelette Recipe Page](https://recipe-page-dun-xi.vercel.app/)
 
+### 5. Results summary component:
+- **Description**: This project involved creating a results page. 
+- **Technologies Used**: HTML, **TailwindCSS**.
+- **Live Demo**: [Results Summary Component](https://results-summary-sand.vercel.app/)
+
 
 ## Getting Started 🚀
 To view the source code or contribute to any of the projects in this repository, follow these steps:
