@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./dist/output.css" />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <style>
+      .attribution {
+        padding: 20px;
+        font-size: 13px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body
+    class="flex flex-col min-w-full min-h-screen text-center sm:justify-center sm:items-center font-Hanken"
+  >
+    <div
+      class="flex flex-col sm:flex-row sm:shadow-xl sm:items-center sm:content-center sm:rounded-3xl sm:h-[460px]"
+    >
+      <div
+        class="flex flex-col gap-2 w-full h-[385px] rounded-b-3xl sm:rounded-3xl sm:w-[300px] sm:h-[460px] bg-gradient-to-t from-royalblue to-slateblue"
+      >
+        <h1 class="p-5 text-lavender text-[18px]">Your Result</h1>
+
+        <div
+          class="flex flex-col font-Hanken items-center justify-center mx-auto rounded-full bg-gradient-to-t from-persianblue to-violetblue w-[150px] h-[150px]"
+        >
+          <p class="text-[50px] font-[800] text-white">76</p>
+          <p class="text-opacity-60 text-lavender text-[15px]">of 100</p>
+        </div>
+        <div class="flex flex-col gap-2 mt-6 sm:gap-3 sm:mt-[70px]">
+          <p class="text-white font-[500] text-2xl">Great</p>
+          <p class="text-lavender max-w-[300px] mx-auto sm:w-[220px]">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+      </div>
+      <div class="flex flex-col">
+        <div
+          class="px-8 pt-5 text-grayblue font-[700] self-start text-xl sm:mt-10"
+        >
+          Summary
+        </div>
+        <div class="flex justify-between">
+          <div
+            class="flex flex-col w-full gap-4 p-[25px] sm:p-[35px] mb-5 sm:w-[340px]"
+          >
+            <div
+              class="flex justify-between rounded-[8px] bg-reaction p-[14px] w-full"
+            >
+              <div class="flex gap-3">
+                <img
+                  src="assets/images/icon-reaction.svg"
+                  alt="icon-reaction"
+                />
+                <p class="text-lightred font-[700]">Reaction</p>
+              </div>
+              <p class="text-grayblue">
+                <span class="font-bold">80</span
+                ><span class="font-semibold text-grayblue/30"> / 100</span>
+              </p>
+            </div>
+
+            <div
+              class="flex justify-between bg-memory rounded-[8px] p-[14px] w-full"
+            >
+              <div class="flex gap-3">
+                <img src="assets/images/icon-memory.svg" alt="icon-memory" />
+                <p class="text-orangeyellow font-[700]">Memory</p>
+              </div>
+              <p class="text-grayblue">
+                <span class="font-bold">92</span>
+                <span class="font-semibold text-grayblue/30"> / 100</span>
+              </p>
+            </div>
+            <div
+              class="flex justify-between bg-verbal rounded-[8px] p-[14px] w-full"
+            >
+              <div class="flex gap-3">
+                <img src="assets/images/icon-verbal.svg" alt="icon-verbal" />
+                <p class="text-greenteal font-[700]">Verbal</p>
+              </div>
+              <p class="text-grayblue">
+                <span class="font-bold">61</span
+                ><span class="font-semibold text-grayblue/30"> / 100</span>
+              </p>
+            </div>
+            <div
+              class="flex justify-between bg-visual rounded-[8px] p-[14px] w-full"
+            >
+              <div class="flex gap-3">
+                <img src="assets/images/icon-visual.svg" alt="icon-visual" />
+                <p class="text-cobaltblue font-[700]">Visual</p>
+              </div>
+              <p class="text-grayblue">
+                <span class="font-bold">72</span>
+                <span class="font-semibold text-grayblue/30"> / 100</span>
+              </p>
+            </div>
+            <div class="sm:p-[20px] self-center">
+              <button
+                class="p-3 mt-2 text-lg font-semibold text-white bg-grayblue rounded-3xl w-[300px] sm:w-[270px] sm:mb-8 hover:bg-gradient-to-t from-royalblue to-slateblue"
+              >
+                Continue
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Abdalla Hamada</a>.
+    </div>
+  </body>
+</html>
