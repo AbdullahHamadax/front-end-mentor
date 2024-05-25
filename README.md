@@ -9,7 +9,7 @@ Frontend Mentor is a platform that provides a variety of frontend coding challen
 > This is a platform where the sole objective is to replicate the given design as closely as possible. As I'm still a beginner, my code may contain errors and unnecessary CSS properties. However, with each project, I'm learning and improving, and I'll continue to refine my code as my skills progress.
 
 ## Projects completed ✅ 
-   # Components:
+   ## Components:
 ### 1. QR code component:
 - **Description**: This project involved creating a QR code page. 
 - **Technologies Used**: HTML, CSS.
@@ -30,7 +30,7 @@ Frontend Mentor is a platform that provides a variety of frontend coding challen
 - **Technologies Used**: HTML, **TailwindCSS**.
 - **Live Demo**: [Results Summary Component](https://results-summary-sand.vercel.app/)
 
-# Landing/Single pages:
+## Landing/Single pages:
 ### 1. Omelette Recipe Page:
 - **Description**: This project involved creating a static page for an Omelette recipe. 
 - **Technologies Used**: HTML, **TailwindCSS**.
