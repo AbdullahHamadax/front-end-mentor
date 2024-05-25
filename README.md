@@ -7,8 +7,7 @@ Frontend Mentor is a platform that provides a variety of frontend coding challen
 
 ## NOTE ❗
 > This is a platform where the sole objective is to replicate the given design as closely as possible. As I'm still a beginner, my code may contain errors and unnecessary CSS properties. However, with each project, I'm learning and improving, and I'll continue to refine my code as my skills progress.
-
-# Project types: components, forms, landing and single pages
+> Project types: **components, forms, landing and single pages, games**
 
 ## Projects completed ✅ 
    ## Components:
