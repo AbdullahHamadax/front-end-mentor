@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Product preview card component</title>
+
+    <style>
+      .attribution {
+        margin-top: 20px;
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Forum&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Forum&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+    <style></style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              Dark_cyan: "hsl(158, 36%, 37%)",
+              Cream: " hsl(30, 38%, 92%)",
+              Dark_grayish_blue: "hsl(228, 12%, 48%)",
+              Very_dark_blue: "hsl(212, 21%, 14%)",
+            },
+            fontFamily: {
+              Montserrat: ["Montserrat"],
+              Fraunces: ["Fraunces"],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body
+    class="flex flex-col items-center justify-center min-h-screen p-4 bg-Cream"
+  >
+    <div class="flex items-center justify-center">
+      <div class="rounded-lg bg-white sm:w-[600px] sm:h-full sm:flex">
+        <picture class="h-full">
+          <source
+            srcset="images/image-product-desktop.jpg"
+            media="(min-width: 640px)"
+          />
+          <img
+            src="images/image-product-mobile.jpg"
+            alt="perfume-image"
+            class="w-full rounded-tl-lg rounded-tr-lg sm:rounded-tr-none sm:rounded-bl-lg"
+          />
+        </picture>
+        <div class="flex flex-col">
+          <p
+            class="pt-5 pb-2 pl-5 font-medium font-Montserrat text-Dark_grayish_blue sm:text-sm"
+          >
+            P E R F U M E
+          </p>
+          <h1
+            class="self-start ml-6 text-4xl font-bold sm:text-3xl sm:max-w-[250px] font-Fraunces text-Very_dark_blue"
+          >
+            Gabrielle Essence <br />Eau De Parfum
+          </h1>
+          <p
+            class="text-Dark_grayish_blue font-Montserrat p-6 max-w-[400px] font-medium sm:text-sm"
+          >
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the house of CHANEL.
+          </p>
+          <div class="flex gap-4 pl-7">
+            <p
+              class="text-4xl font-bold font-Fraunces text-Dark_cyan sm:text-3xl"
+            >
+              $149.99
+            </p>
+            <p
+              class="self-center font-medium line-through text-Dark_grayish_blue font-Montserrat"
+            >
+              $169.99
+            </p>
+          </div>
+          <div class="p-6 sm:p-8">
+            <button
+              class="flex items-center justify-center w-full gap-3 p-4 font-bold text-white cursor-pointer bg-Dark_cyan font-Montserrat rounded-xl sm:p-3 sm:w-[240px] hover:bg-Very_dark_blue"
+            >
+              <img src="images/icon-cart.svg" alt="cart-icon" />
+
+              Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Abdullah Hamada</a>.
+    </div>
+  </body>
+</html>
