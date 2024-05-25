@@ -8,27 +8,41 @@ Frontend Mentor is a platform that provides a variety of frontend coding challen
 ## NOTE ❗
 > This is a platform where the sole objective is to replicate the given design as closely as possible. As I'm still a beginner, my code may contain errors and unnecessary CSS properties. However, with each project, I'm learning and improving, and I'll continue to refine my code as my skills progress.
 
+> Project types: **components, forms, landing and single pages, games**
+
 ## Projects completed ✅ 
+   ## Components:
 ### 1. QR code component:
-- **Description**: This project involved creating a QR code page. 
+- **Description**: This project involved creating a QR code component. 
 - **Technologies Used**: HTML, CSS.
 - **Live Demo**: [QR Code Component](https://qr-code-seven-pied.vercel.app/)
 
-### 2. Blog card:
-- **Description**: This project involved creating a simple blog card page. 
+### 2. Blog card Component:
+- **Description**: This project involved creating a simple blog card component. 
 - **Technologies Used**: HTML, CSS.
 - **Live Demo**: [Blog card](https://blog-card-inky.vercel.app/)
 
 ### 3. Social links profile:
-- **Description**: This project involved creating a simple blog card page. 
+- **Description**: This project involved creating a small component with social links as buttons. 
 - **Technologies Used**: HTML, CSS.
 - **Live Demo**: [Social links profile](https://social-links-profile-two-azure.vercel.app/)
 
-### 4. Omelette Recipe Page:
+### 4. Results summary component:
+- **Description**: This project involved creating a test results component. 
+- **Technologies Used**: HTML, **TailwindCSS**.
+- **Live Demo**: [Results Summary Component](https://results-summary-sand.vercel.app/)
+  
+### 5. Product Preview Component
+- **Description**: A Chanel product component card. 
+- **Technologies Used**: HTML, **TailwindCSS**.
+- **Live Demo**: [Product Preview Component](https://product-preview-card-component-xi-black.vercel.app/)
+  
+
+## Landing/Single pages:
+### 1. Omelette Recipe Page:
 - **Description**: This project involved creating a static page for an Omelette recipe. 
 - **Technologies Used**: HTML, **TailwindCSS**.
 - **Live Demo**: [Omelette Recipe Page](https://recipe-page-dun-xi.vercel.app/)
-
 
 ## Getting Started 🚀
 To view the source code or contribute to any of the projects in this repository, follow these steps:
