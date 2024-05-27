@@ -37,7 +37,6 @@
     <style>
       .attribution {
         color: white;
-        margin-top: 30px;
         font-size: 11px;
         text-align: center;
       }
@@ -47,46 +46,63 @@
     </style>
   </head>
   <body
-    class="min-h-screen bg-Very_dark_BG flex flex-col items-center justify-center"
+    class="flex flex-col items-center justify-center min-h-screen bg-Very_dark_BG"
   >
-    <!-- Equilibrium #3429 Our Equilibrium collection promotes balance and calm.
-    0.041 ETH 3 days left Creation of Jules Wyvern -->
-
     <div
       class="flex flex-col w-[350px] h-[596px] bg-Very_dark_card rounded-xl shadow-2xl"
     >
-      <div class="p-5 flex flex-col gap-4">
-        <img
-          src="images/image-equilibrium.jpg"
-          alt="NFT-image"
-          class="rounded-lg"
-        />
-        <h1 class="text-white font-Outfit font-semibold text-xl">
+      <div class="flex flex-col gap-4 p-5">
+        <div
+          class="relative overflow-hidden rounded-lg cursor-pointer group"
+        >
+          <img
+            src="images/image-equilibrium.jpg"
+            alt="NFT"
+            class="rounded-lg cursor-pointer"
+          />
+          <div
+            class="absolute inset-0 group-hover:shadow-[inset_0_9999px_rgba(0,255,247,0.5)] transition"
+          ></div>
+          <img
+            src="images/icon-view.svg"
+            alt="View"
+            class="absolute transition -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 top-1/2 left-1/2"
+          />
+        </div>
+
+        <h1
+          class="text-xl font-semibold text-white cursor-pointer font-Outfit hover:text-Cyan"
+        >
           Equilibrium #3429
         </h1>
         <p class="font-Outfit text-lg text-Soft_blue font-light max-w-[25ch]">
           Our Equilibrium collection promotes balance and calm.
         </p>
-        <div class="flex text-Cyan font-Outfit font-semibold justify-between">
+        <div class="flex justify-between font-semibold text-Cyan font-Outfit">
           <div class="flex gap-2">
-            <img src="images/icon-ethereum.svg" alt="ETH-icon" />0.041 ETH
+            <img src="images/icon-ethereum.svg" alt="ETH" />0.041 ETH
           </div>
           <div class="flex gap-2 text-Soft_blue">
             <img
               src="images/icon-clock.svg"
-              alt="clock-icon"
+              alt="clock"
               class="self-center"
             />3 days left
           </div>
         </div>
         <hr class="border-Very_dark_line" />
-        <div class="text-white flex gap-4 items-center p-1">
+        <div class="flex items-center gap-4 p-1 text-white">
           <img
             src="images/image-avatar.png"
             alt="avatar"
             class="border-white border-[1.2px] w-[33px] h-[33px] rounded-full"
           />
-          <p><span class="text-Soft_blue">Creation of</span> Jules Wyvern</p>
+          <p class="text-Soft_blue font-Outfit">
+            Creation of
+            <span class="text-white cursor-pointer hover:text-Cyan"
+              >Jules Wyvern</span
+            >
+          </p>
         </div>
       </div>
     </div>
@@ -98,4 +114,4 @@
       >. Coded by <a href="#">Abdallah Hamada</a>.
     </div>
   </body>
-</html>
+</html
