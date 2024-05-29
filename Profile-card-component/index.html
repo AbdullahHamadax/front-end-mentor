@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              Dark_cyan: "hsl(185, 75%, 39%)",
+              Very_dark_desaturated_blue: "hsl(229, 23%, 23%)",
+              Dark_grayish_blue: "hsl(227, 10%, 46%)",
+            },
+            fontFamily: {
+              Kumbh_Sans: ["Kumbh Sans"],
+            },
+          },
+        },
+      };
+    </script>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Profile card component</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Forum&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Kumbh+Sans:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap");
+
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body
+    class="min-h-screen flex flex-col items-center justify-center bg-Dark_cyan overflow-hidden"
+  >
+    <div class="rounded-xl bg-white w-[326px] h-[374px]">
+      <img
+        src="images/bg-pattern-top.svg"
+        alt="cyan circle"
+        class="absolute top-[-350px] z-[-2] right-[150px] bottom-[500px] w-[622px] h-[621px] sm:w-[978px] sm:h-[976px] sm:top-[-500px] sm:right-[730px]"
+      />
+      <div class="flex flex-col items-center justify-center">
+        <img
+          src="images/bg-pattern-card.svg"
+          alt="card image"
+          class="w-[326px] h-[140px] rounded-tr-xl rounded-tl-xl"
+        />
+        <div class="flex items-center justify-center gap-3 mt-[65px]">
+          <h1
+            class="text-xl text-Very_dark_desaturated_blue font-Kumbh_Sans font-bold"
+          >
+            Victor Crest
+          </h1>
+          <p class="text-Dark_grayish_blue text-[1.125rem] font-normal">26</p>
+        </div>
+        <p class="text-Dark_grayish_blue font-normal">London</p>
+        <hr class="w-full mt-6" />
+
+        <div
+          class="flex justify-between items-center gap-10 mt-5 font-Kambh_Sans"
+        >
+          <div class="flex flex-col items-center gap-1">
+            <p class="text-Very_dark_desaturated_blue font-bold text-xl">80k</p>
+            <p
+              class="text-Dark_grayish_blue text-xs tracking-widest font-normal"
+            >
+              Followers
+            </p>
+          </div>
+          <div class="flex flex-col items-center gap-1">
+            <p class="text-Very_dark_desaturated_blue font-bold text-xl">
+              803k
+            </p>
+            <p
+              class="text-Dark_grayish_blue text-xs tracking-widest font-normal"
+            >
+              Likes
+            </p>
+          </div>
+          <div class="flex flex-col items-center gap-1">
+            <p class="text-Very_dark_desaturated_blue font-bold text-xl">
+              1.4K
+            </p>
+            <p
+              class="text-Dark_grayish_blue text-xs tracking-widest font-normal"
+            >
+              Photos
+            </p>
+          </div>
+        </div>
+
+        <img
+          src="images/image-victor.jpg"
+          alt="victor image"
+          class="absolute top-[315px] rounded-full w-[96px] h-[96px] border-white border-[5px] sm:top-[320px] 2xl:top-[435px]"
+        />
+      </div>
+      <img
+        src="images/bg-pattern-bottom.svg"
+        alt="cyan circle"
+        class="absolute top-[450px] z-[-2] right-[-180px] w-[622px] h-[621px] sm:w-[978px] sm:h-[976px] sm:top-[440px]"
+      />
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Abdallah Hamada</a>.
+    </div>
+  </body>
+</html>
