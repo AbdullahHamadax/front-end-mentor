@@ -16,7 +16,7 @@ Frontend Mentor is a platform that provides a variety of frontend coding challen
 
 ### 1. Newbie
 
-| Technologies Used | Tags  | Challenges | Live Preview | Code | Price |
+| Technologies Used | Tags  | Challenges | Live | Code | Price |
 | --- | --- | --- | --- | --- | --- |
 | HTML, CSS | HTML--CSS | QR code component | [Live](https://qr-code-seven-pied.vercel.app/) | [Code](./Qr-code) | Free |
 | HTML, CSS | HTML--CSS | Blog card component | [Live](https://blog-card-inky.vercel.app/) | [Code](./Blog-card) | Free |
