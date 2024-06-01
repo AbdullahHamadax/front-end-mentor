@@ -17,12 +17,12 @@ Frontend Mentor is a platform that provides a variety of frontend coding challen
 
 | Technologies Used | Tags  | Challenges | Live Preview | Code | Price |
 | --- | --- | --- | --- | --- | --- |
-| HTML, CSS | HTML--CSS | QR code component | [Live](https://qr-code-seven-pied.vercel.app/) | [Code](#) | Free |
-| HTML, CSS | HTML--CSS | Blog card component | [Live](https://blog-card-inky.vercel.app/) | [Code](#) | Free |
-| HTML, CSS | HTML--CSS | Social links profile | [Live](https://social-links-profile-two-azure.vercel.app/) | [Code](#) | Free |
-| HTML, TailwindCSS | HTML--CSS | Results summary component | [Live](https://results-summary-sand.vercel.app/) | [Code](#) | Free |
-| HTML, TailwindCSS | HTML--CSS | Product Preview Component | [Live](https://product-preview-card-component-xi-black.vercel.app/) | [Code](#) | Free |
-| HTML, TailwindCSS | HTML--CSS | Omelette Recipe Page | [Live](https://recipe-page-dun-xi.vercel.app/) | [Code](#) | Free |
+| HTML, CSS | HTML--CSS | QR code component | [Live](https://qr-code-seven-pied.vercel.app/) | [Code](./Qr-code) | Free |
+| HTML, CSS | HTML--CSS | Blog card component | [Live](https://blog-card-inky.vercel.app/) | [Code](./Blog-card) | Free |
+| HTML, CSS | HTML--CSS | Social links profile | [Live](https://social-links-profile-two-azure.vercel.app/) | [Code](./Social-links-profile) | Free |
+| HTML, TailwindCSS | HTML--CSS | Results summary component | [Live](https://results-summary-sand.vercel.app/) | [Code](./Results-summary) | Free |
+| HTML, TailwindCSS | HTML--CSS | Product Preview Component | [Live](https://product-preview-card-component-xi-black.vercel.app/) | [Code](./product-preview-card-component) | Free |
+| HTML, TailwindCSS | HTML--CSS | Omelette Recipe Page | [Live](https://recipe-page-dun-xi.vercel.app/) | [Code](./Recipe-page) | Free |
 
 
 ## Getting Started 🚀
