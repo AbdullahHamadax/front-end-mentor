@@ -9,11 +9,11 @@ Frontend Mentor is a platform that provides a variety of frontend coding challen
 > As I'm still a beginner, my code may contain errors and unnecessary CSS properties. However, with each project, I'm learning and improving, and I'll continue to refine my code as my skills progress.
 > Project difficultities ( easiest to hardest ) : **Newbie, Junior, Intermediate, Advanced, Guru**
 
-### Projects completed ✅ 
+# Projects completed ✅ 
 
-### Difficulties
+## Difficulties
 
-# Newbie
+### Newbie
 
 | Technologies Used | Tags  | Challenges | Live Preview | Code | Price |
 | --- | --- | --- | --- | --- | --- |
