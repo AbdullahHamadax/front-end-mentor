@@ -9,12 +9,20 @@ Frontend Mentor is a platform that provides a variety of frontend coding challen
 > As I'm still a beginner, my code may contain errors and unnecessary CSS properties. However, with each project, I'm learning and improving, and I'll continue to refine my code as my skills progress.
 > Project difficultities ( easiest to hardest ) : **Newbie, Junior, Intermediate, Advanced, Guru**
 
-## Projects completed ✅ 
+### Projects completed ✅ 
 
-## Difficulties
+### Difficulties
 
 # Newbie
 
+| Technologies Used | Tags  | Challenges | Live Preview | Code | Price |
+| --- | --- | --- | --- | --- | --- |
+| HTML, CSS | HTML--CSS | QR code component | [Live](https://qr-code-seven-pied.vercel.app/) | [Code](#) | Free |
+| HTML, CSS | HTML--CSS | Blog card component | [Live](https://blog-card-inky.vercel.app/) | [Code](#) | Free |
+| HTML, CSS | HTML--CSS | Social links profile | [Live](https://social-links-profile-two-azure.vercel.app/) | [Code](#) | Free |
+| HTML, TailwindCSS | HTML--CSS | Results summary component | [Live](https://results-summary-sand.vercel.app/) | [Code](#) | Free |
+| HTML, TailwindCSS | HTML--CSS | Product Preview Component | [Live](https://product-preview-card-component-xi-black.vercel.app/) | [Code](#) | Free |
+| HTML, TailwindCSS | HTML--CSS | Omelette Recipe Page | [Live](https://recipe-page-dun-xi.vercel.app/) | [Code](#) | Free |
 
 
 ## Getting Started 🚀
