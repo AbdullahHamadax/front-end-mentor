@@ -13,7 +13,7 @@ Frontend Mentor is a platform that provides a variety of frontend coding challen
 
 ## Difficulties
 
-### Newbie
+### 1. Newbie
 
 | Technologies Used | Tags  | Challenges | Live Preview | Code | Price |
 | --- | --- | --- | --- | --- | --- |
@@ -25,7 +25,7 @@ Frontend Mentor is a platform that provides a variety of frontend coding challen
 | HTML, TailwindCSS | HTML--CSS | Omelette Recipe Page | [Live](https://recipe-page-dun-xi.vercel.app/) | [Code](./Recipe-page) | Free |
 
 
-## Getting Started 🚀
+## Getting Started 
 To view the source code or contribute to any of the projects in this repository, follow these steps:
 
 1. Clone this repository to your local machine using `git clone https://github.com/your-username/frontend-mentor.git`
@@ -33,7 +33,7 @@ To view the source code or contribute to any of the projects in this repository,
 3. Open the project in your preferred code editor.
 4. Explore the code, make changes, and experiment with different features.
 
-## Contributing 🤝
+## Contributing 
 If you'd like to contribute to any of the projects in this repository, feel free to submit a pull request with your changes. Contributions, feedback, and suggestions are always welcome!
 
 
