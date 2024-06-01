@@ -15,18 +15,7 @@ Frontend Mentor is a platform that provides a variety of frontend coding challen
 
 # Newbie
 
-| Tags  | Technologies used  | Challanges | Live|  Code|  Price|
-| --- | -- |  -- | --  |  -- |
-| HTML--CSS      |  Stats preview card component | [Live](https://stats-preview-card-component-mp.netlify.app/) | [Code](https://git.io/Js28z) |Free|
-| HTML--CSS      | 3-column preview card component  | [Live](https://3-column-preview-card-component-mp.netlify.app/) | [Code](https://git.io/Js282) |Free|
-| HTML--CSS      | Profile card component  | [Live](https://profile-card-component-mp.netlify.app/) | [Code](https://git.io/Js28r) |Free|
-| HTML--CSS      | Four card feature section  | [Live](https://four-card-feature-section-mp.netlify.app/) | [Code](https://git.io/Js28i) |Free|
-| HTML--CSS--JS  | Base Apparel coming soon page | [Live](https://base-apparel-coming-soon-mp.netlify.app/) | [Code](https://git.io/Js28y) |Free|
-| HTML--CSS--JS  | Intro component with sign-up form   | [Live](https://intro-component-with-signup-form-mp.netlify.app/) | [Code](https://git.io/Js28d) |Free|
-| HTML--CSS      | Single price grid component    | [Live](https://single-price-grid-component-mp.netlify.app/) | [Code](https://git.io/Js28j) |Free|
-| HTML--CSS      | Ping single column coming soon page  | [Live](https://ping-coming-soon-page-mp.netlify.app/) | [Code](https://git.io/Js24v) |Free|
-| HTML--CSS      | Huddle landing page with a single introductory section | [Live](https://huddle-landing-page-with-single-introductory-section-mp.netlify.app/) | [Code](https://git.io/Js24J) |Free|
-| HTML--CSS      | NFT preview card component | [Live](https://nft-preview-card-component-mp.netlify.app/) | [Code](https://git.io/J9cku) |Free
+
 
 ## Getting Started 🚀
 To view the source code or contribute to any of the projects in this repository, follow these steps:
