@@ -36,8 +36,3 @@ To view the source code or contribute to any of the projects in this repository,
 3. Open the project in your preferred code editor.
 4. Explore the code, make changes, and experiment with different features.
 
-## Contributing 
-If you'd like to contribute to any of the projects in this repository, feel free to submit a pull request with your changes. Contributions, feedback, and suggestions are always welcome!
-
-
-Happy coding! 🚀
