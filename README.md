@@ -24,7 +24,7 @@ Frontend Mentor is a platform that provides a variety of frontend coding challen
 | HTML, TailwindCSS | HTML--CSS | Results summary component | [Live](https://results-summary-sand.vercel.app/) | [Code](./Results-summary) | Free |
 | HTML, TailwindCSS | HTML--CSS | Product Preview Component | [Live](https://product-preview-card-component-xi-black.vercel.app/) | [Code](./product-preview-card-component) | Free |
 | HTML, TailwindCSS | HTML--CSS | Omelette Recipe Page | [Live](https://recipe-page-dun-xi.vercel.app/) | [Code](./Recipe-page) | Free |
-| HTML, TailwindCSS | HTML--CSS | Order summary component | [Live](https://order-summary-component-eight-blond.vercel.app/) | [Code](./Order-summary) | Free |
+| HTML, TailwindCSS | HTML--CSS | Order summary component | [Live](https://order-summary-component-eight-blond.vercel.app/) | [Code](./Order-summary-component) | Free |
 
 
 
