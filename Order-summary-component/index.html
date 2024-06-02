@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              Pale_blue: "hsl(225, 100%, 94%)", // Background
+              Bright_blue: "hsl(245, 75%, 52%)", // Change button
+              Very_pale_blue: "hsl(225, 100%, 98%)", // Annual plan div
+              Desaturated_blue: "hsl(224, 23%, 55%)", // Paragraoh
+              Dark_blue: "hsl(223, 47%, 23%)", // Order summary and Annual plan
+              Purple_hover: "hsl(245, 83%, 68%)",
+            },
+            fontFamily: {
+              Red_Hat_Display: ["Red Hat Display"],
+            },
+          },
+        },
+      };
+    </script>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Order summary card</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Forum&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Kumbh+Sans:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body
+    class="flex flex-col items-center justify-center min-h-screen gap-2 bg-Pale_blue"
+  >
+    <picture class="">
+      <source
+        srcset="images/pattern-background-desktop.svg"
+        media="(min-width: 640px)"
+      />
+      <img
+        src="images/pattern-background-mobile.svg"
+        alt="wavy image background"
+        class="absolute left-0 right-0 top-[2px] w-[639.27px] h-[300px] sm:w-full sm:h-[437px] sm:top-[-10px]"
+      />
+    </picture>
+    <div
+      class="bg-white w-[327px] h-[567px] gap-6 rounded-2xl flex flex-col text-center items-center drop-shadow-xl"
+    >
+      <img
+        src="images/illustration-hero.svg"
+        alt="image of a girl listening"
+        class="w-full rounded-tr-2xl rounded-tl-2xl"
+      />
+      <div class="flex flex-col gap-5 text-center">
+        <h1
+          class="mt-2 text-2xl font-black font-Red_Hat_Display text-Dark_blue"
+        >
+          Order Summary
+        </h1>
+        <p
+          class="max-w-[24ch] font-medium font-Red_Hat_Display text-Desaturated_blue"
+        >
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+      </div>
+      <div
+        class="flex justify-around items-center rounded-xl w-[279px] h-[81px] bg-Very_pale_blue"
+      >
+        <div class="flex items-center justify-center gap-4">
+          <img src="images/icon-music.svg" alt="music icon" />
+          <div class="flex flex-col text-sm">
+            <p class="font-black font-Red_Hat_Display text-Dark_blue">
+              Annual Plan
+            </p>
+            <p class="font-bold font-Red_Hat_Display text-Desaturated_blue">
+              $59.99/year
+            </p>
+          </div>
+        </div>
+        <p
+          class="text-sm font-black underline cursor-pointer font-Red_Hat_Display hover:text-Purple_hover text-Bright_blue"
+        >
+          Change
+        </p>
+      </div>
+      <button
+        class="font-Red_Hat_Display hover:bg-Purple_hover cursor-pointer text-white rounded-2xl text-center bg-Bright_blue w-[279px] h-[50px] font-bold shadow-xl"
+      >
+        Proceed to Payment
+      </button>
+
+      <p
+        class="font-black cursor-pointer font-Red_Hat_Display text-Desaturated_blue hover:text-Dark_blue"
+      >
+        Cancel Order
+      </p>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Abdallah Hamada</a>.
+    </div>
+  </body>
+</html>
