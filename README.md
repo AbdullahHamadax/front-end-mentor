@@ -29,7 +29,7 @@ Frontend Mentor is a platform that provides a variety of frontend coding challen
 
 
 ## Getting Started 
-To view the source code or contribute to any of the projects in this repository, follow these steps:
+To view the source code of the projects in this repository, follow these steps:
 
 1. Clone this repository to your local machine using `git clone https://github.com/your-username/frontend-mentor.git`
 2. Navigate to the project folder: `cd project-name`
