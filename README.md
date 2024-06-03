@@ -22,35 +22,22 @@ Frontend Mentor is a platform that provides a variety of frontend coding challen
 | HTML, CSS | HTML--CSS | Blog card component | [Live](https://blog-card-inky.vercel.app/) | [Code](./Blog-card) | Free |
 | HTML, CSS | HTML--CSS | Social links profile | [Live](https://social-links-profile-two-azure.vercel.app/) | [Code](./Social-links-profile) | Free |
 | HTML, TailwindCSS | HTML--CSS | Results summary component | [Live](https://results-summary-sand.vercel.app/) | [Code](./Results-summary) | Free |
-<<<<<<< HEAD
-| HTML, TailwindCSS | HTML--CSS | Product Preview Component | [Live](https://product-preview-card-component-xi-black.vercel.app/) | [Code](./product-preview-card-component) | Free |
-| HTML, TailwindCSS | HTML--CSS | Omelette Recipe Page | [Live](https://recipe-page-dun-xi.vercel.app/) | [Code](./Recipe-page) | Free |
-
-
-## Getting Started 
-To view the source code or contribute to any of the projects in this repository, follow these steps:
-=======
 | HTML, TailwindCSS | HTML--CSS | Product preview Component | [Live](https://product-preview-card-component-xi-black.vercel.app/) | [Code](./product-preview-card-component) | Free |
-| HTML, TailwindCSS | HTML--CSS | Omelette recipe page | [Live](https://recipe-page-dun-xi.vercel.app/) | [Code](./Recipe-page) | Free |
 | HTML, TailwindCSS | HTML--CSS | Order summary component | [Live](https://order-summary-component-eight-blond.vercel.app/) | [Code](./Order-summary-component) | Free |
 | HTML, TailwindCSS | HTML--CSS | Profile card component | [Live](https://profile-card-component-gray-five.vercel.app/) | [Code](./Profile-card-component) | Free |
+| HTML, TailwindCSS | HTML--CSS | Single price grid component| [Live](https://single-price-grid-component-dun-nine.vercel.app/) | [Code](./Single-price-grid-component) | Free |
+| HTML, TailwindCSS | HTML--CSS | NFT preview card component| [Live](https://nft-preview-card-component-nu-puce.vercel.app/) | [Code](./nft-preview-card-component) | Free |
+| HTML, TailwindCSS | HTML--CSS | Omelette recipe page| [Live](https://recipe-page-dun-xi.vercel.app/) | [Code](./Recipe-page) | Free |
+
 
 
 
 ## Getting Started 
 To view the source code of the projects in this repository, follow these steps:
->>>>>>> 9f1e917aacfa33363a582354efd5ec8891611e2c
 
 1. Clone this repository to your local machine using `git clone https://github.com/your-username/frontend-mentor.git`
 2. Navigate to the project folder: `cd project-name`
 3. Open the project in your preferred code editor.
 4. Explore the code, make changes, and experiment with different features.
 
-<<<<<<< HEAD
-## Contributing 
-If you'd like to contribute to any of the projects in this repository, feel free to submit a pull request with your changes. Contributions, feedback, and suggestions are always welcome!
 
-
-Happy coding! 🚀
-=======
->>>>>>> 9f1e917aacfa33363a582354efd5ec8891611e2c
