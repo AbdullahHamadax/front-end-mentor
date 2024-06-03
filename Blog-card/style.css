@@ -38,6 +38,11 @@ img {
   font-weight: var(--paragraph-weight);
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 9f1e917aacfa33363a582354efd5ec8891611e2c
 #learning {
   font-size: 1rem;
   font-weight: 600;
@@ -51,6 +56,10 @@ img {
   background-color: var(--yellow-background);
 }
 
+<<<<<<< HEAD
+=======
+>>>>>>> a468432 (Added new project and modified blog-card css.)
+>>>>>>> 9f1e917aacfa33363a582354efd5ec8891611e2c
 h1 {
   font-size: 25px;
   color: var(--header-color);
