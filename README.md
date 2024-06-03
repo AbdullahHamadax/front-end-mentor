@@ -22,9 +22,10 @@ Frontend Mentor is a platform that provides a variety of frontend coding challen
 | HTML, CSS | HTML--CSS | Blog card component | [Live](https://blog-card-inky.vercel.app/) | [Code](./Blog-card) | Free |
 | HTML, CSS | HTML--CSS | Social links profile | [Live](https://social-links-profile-two-azure.vercel.app/) | [Code](./Social-links-profile) | Free |
 | HTML, TailwindCSS | HTML--CSS | Results summary component | [Live](https://results-summary-sand.vercel.app/) | [Code](./Results-summary) | Free |
-| HTML, TailwindCSS | HTML--CSS | Product Preview Component | [Live](https://product-preview-card-component-xi-black.vercel.app/) | [Code](./product-preview-card-component) | Free |
-| HTML, TailwindCSS | HTML--CSS | Omelette Recipe Page | [Live](https://recipe-page-dun-xi.vercel.app/) | [Code](./Recipe-page) | Free |
+| HTML, TailwindCSS | HTML--CSS | Product preview Component | [Live](https://product-preview-card-component-xi-black.vercel.app/) | [Code](./product-preview-card-component) | Free |
+| HTML, TailwindCSS | HTML--CSS | Omelette recipe page | [Live](https://recipe-page-dun-xi.vercel.app/) | [Code](./Recipe-page) | Free |
 | HTML, TailwindCSS | HTML--CSS | Order summary component | [Live](https://order-summary-component-eight-blond.vercel.app/) | [Code](./Order-summary-component) | Free |
+| HTML, TailwindCSS | HTML--CSS | Profile card component | [Live](https://profile-card-component-gray-five.vercel.app/) | [Code](./Profile-card-component) | Free |
 
 
 
