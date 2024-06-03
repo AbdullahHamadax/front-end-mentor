@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              Cyan: "hsl(179, 62%, 43%)", // Join our comm
+              Bright_Yellow: "hsl(71, 73%, 54%)", // 30 day money back
+              Light_Gray: "hsl(204, 43%, 93%)", // background
+              Grayish_Blue: "hsl(218, 22%, 67%)", // paragraphs
+              Dark_Cyan: "hsl(179, 61%, 44%)", // Monthly div
+            },
+            fontFamily: {
+              Karla: ["Karla"],
+            },
+          },
+        },
+      };
+    </script>
+    <title>Frontend Mentor | Single Price Grid Component</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Forum&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
+      .attribution {
+        font-size: 13px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body
+    class="min-h-screen bg-Light_Gray flex flex-col items-center justify-center"
+  >
+    <div
+      class="flex flex-col bg-white w-[340px] h-[680px] rounded-md sm:w-[640px] sm:h-[400px]"
+    >
+      <div class="flex flex-col items-start gap-3 p-4 sm:p-8">
+        <h1 class="font-Karla text-Cyan font-bold text-xl">
+          Join our community
+        </h1>
+        <p class="font-Karla text-Bright_Yellow font-bold">
+          30-day, hassle-free money back guarantee
+        </p>
+        <p
+          class="font-Karla text-Grayish_Blue font-normal max-w-[32ch] sm:max-w-[53ch] sm:mb-1 mb-4"
+        >
+          Gain access to our full library of tutorials along with expert code
+          reviews. Perfect for any developers who are serious about honing their
+          skills.
+        </p>
+      </div>
+      <div class="flex flex-col sm:flex-row sm:h-full mt-auto">
+        <div class="flex flex-col bg-Cyan h-full gap-3 p-5 sm:w-full">
+          <h1 class="text-white font-Karla text-lg font-normal sm:p-1">
+            Monthly Subscription
+          </h1>
+          <div class="flex gap-3">
+            <p class="font-Karla text-white text-3xl font-normal">&dollar;29</p>
+            <p
+              class="font-Karla text-md self-center text-Light_Gray opacity-70 font-normal"
+            >
+              per month
+            </p>
+          </div>
+          <p
+            class="font-Karla text-white text-md font-normal opacity-75 sm:mb-4"
+          >
+            Full access for less than &dollar;1 a day
+          </p>
+          <button
+            class="bg-Bright_Yellow p-4 rounded-md text-white font-bold drop-shadow-xl sm:w-[250px] sm:self-center"
+          >
+            Sign Up
+          </button>
+        </div>
+        <div
+          class="flex flex-col bg-Dark_Cyan h-full rounded-br-md gap-3 p-5 sm:w-full"
+        >
+          <h1 class="font-Karla text-white text-lg font-normal mt-2">Why Us</h1>
+          <p class="font-Karla text-Light_Gray font-normal opacity-85">
+            Tutorials by industry experts <br />
+            Peer &amp; expert code review <br />
+            Coding exercises <br />
+            Access to our GitHub repos <br />
+            Community forum <br />
+            Flashcard decks <br />
+            New videos every week
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="absolute bottom-0">
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Abdallah Hamada</a>.
+      </p>
+    </footer>
+  </body>
+</html>
