@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              Very_dark_blue: "hsl(233, 47%, 7%)",
+              Dark_desaturated_blue: "hsl(244, 38%, 16%)",
+              Soft_violet: "hsl(277, 64%, 61%)",
+              Dark_violet: "rgb(158, 85, 203)",
+              Slightly_transparent_white: "hsla(0, 0%, 100%, 0.75)",
+              Slightly_transparent_white: "hsla(0, 0%, 100%, 0.6)",
+            },
+            fontFamily: {
+              Inter: ["Inter"],
+              Lexend_Deca: ["Lexend_Deca"],
+            },
+          },
+        },
+      };
+    </script>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Forum&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:wght@100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Forum&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:wght@100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
+      .attribution {
+        font-size: 14px;
+        text-align: center;
+        color: white;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body
+    class="flex flex-col items-center justify-center min-h-screen bg-Very_dark_blue"
+  >
+    <div
+      class="bg-Dark_desaturated_blue w-[280px] h-[680px] rounded-lg flex flex-col items-center sm:w-[900px] sm:h-[340px] sm:flex-row-reverse"
+    >
+      <div
+        class="relative overflow-hidden rounded-tl-lg rounded-tr-lg group sm:rounded-tl-none sm:h-full sm:rounded-br-lg sm:rounded-tr-lg"
+      >
+        <picture>
+          <source
+            media="(min-width:640px)"
+            srcset="images/image-header-desktop.jpg"
+          />
+          <img
+            src="images/image-header-mobile.jpg"
+            alt="Group of people working and laughing around a table"
+            class="sm:max-w-full sm:max-h-full"
+          />
+        </picture>
+
+        <div
+          class="absolute inset-0 opacity-100 bg-Dark_violet mix-blend-multiply"
+        ></div>
+      </div>
+      <div class="sm:flex-col sm:items-center sm:justify-center sm:m-auto">
+        <div class="sm:p-5">
+          <p
+            class="text-white text-2xl font-Inter font-bold text-center max-w-[14ch] mt-8 sm:max-w-[18ch] sm:text-left sm:mt-0 sm:text-3xl"
+          >
+            Get <span class="text-Soft_violet">insights</span> that help your
+            business grow.
+          </p>
+          <p
+            class="text-Slightly_transparent_white max-w-[28ch] mt-4 text-center sm:max-w-[37ch] sm:text-left sm:text-sm"
+          >
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+        </div>
+        <div
+          class="flex flex-col items-center justify-center gap-5 mt-8 text-center sm:flex-row sm:gap-16 sm:text-left sm:mr-10"
+        >
+          <div>
+            <p class="text-xl font-bold text-white font-Inter">10k+</p>
+            <p
+              class="text-xs font-bold tracking-wide uppercase font-Inter text-Slightly_transparent_white"
+            >
+              companies
+            </p>
+          </div>
+          <div>
+            <p class="text-xl font-bold text-white font-Inter">314</p>
+            <p
+              class="text-xs font-bold tracking-wide uppercase font-Inter text-Slightly_transparent_white"
+            >
+              templates
+            </p>
+          </div>
+          <div>
+            <p class="text-xl font-bold text-white font-Inter">12M+</p>
+            <p
+              class="text-xs font-bold tracking-wide uppercase font-Inter text-Slightly_transparent_white"
+            >
+              queries
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Abdallah Hamada</a>.
+    </footer>
+  </body>
+</html>
