@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              Bright_orange: "hsl(31, 77%, 52%)",
+              Dark_cyan: "hsl(184, 100%, 22%)",
+              Very_dark_cyan: "hsl(179, 100%, 13%)",
+              Transparent_white: "hsla(0, 0%, 100%, 0.75)",
+              Very_light_gray: "hsl(0, 0%, 95%)",
+            },
+            fontFamily: {
+              Lexend_Deca: ["Lexend Deca"],
+              Big_Shoulders_Display: ["Big Shoulders Display"],
+            },
+          },
+        },
+      };
+    </script>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | 3-column preview card component</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap");
+
+      .attribution {
+        font-size: 14px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="min-h-screen flex flex-col items-center justify-center">
+    <div
+      class="flex flex-col h-[660px] w-[270px] sm:flex-row sm:items-center sm:justify-center sm:h-[400px] sm:w-[755px]"
+    >
+      <div
+        class="bg-Bright_orange rounded-tr-lg rounded-tl-lg sm:h-full sm:w-full sm:rounded-tr-none sm:rounded-bl-lg"
+      >
+        <div class="flex flex-col items-start p-7 gap-7">
+          <img src="images/icon-sedans.svg" alt="sedan icon" />
+          <h1
+            class="text-Very_light_gray text-3xl font-Big_Shoulders_Display font-bold uppercase tracking-wider"
+          >
+            sedans
+          </h1>
+          <p class="text-Transparent_white font-Lexend_Deca text-sm">
+            Choose a sedan for its affordability and excellent fuel economy.
+            Ideal for cruising in the city or on your next road trip.
+          </p>
+          <button
+            class="bg-Very_light_gray rounded-3xl w-[130px] h-[45px] text-Bright_orange font-Lexend_Deca cursor-pointer text-center border-solid border-2 border-Bright_orange font-normal text-sm hover:bg-transparent hover:border-white hover:text-Very_light_gray transition ease-in sm:mt-7"
+          >
+            Learn More
+          </button>
+        </div>
+      </div>
+      <div class="bg-Dark_cyan sm:h-full sm:w-full">
+        <div class="flex flex-col items-start p-7 gap-7">
+          <img src="images/icon-suvs.svg" alt="suv icon" />
+          <h1
+            class="text-Very_light_gray text-3xl font-Big_Shoulders_Display font-bold uppercase tracking-wider"
+          >
+            suvs
+          </h1>
+          <p class="text-Transparent_white font-Lexend_Deca text-sm">
+            Take an SUV for its spacious interior, power, and versatility.
+            Perfect for your next family vacation and off-road adventures.
+          </p>
+          <button
+            class="bg-Very_light_gray rounded-3xl w-[130px] h-[45px] text-Dark_cyan font-Lexend_Deca cursor-pointer text-center border-solid border-2 border-Dark_cyan font-normal text-sm hover:bg-transparent hover:border-white hover:text-Very_light_gray transition ease-in sm:mt-7"
+          >
+            Learn More
+          </button>
+        </div>
+      </div>
+      <div
+        class="bg-Very_dark_cyan rounded-br-lg rounded-bl-lg sm:h-full sm:w-full sm:rounded-bl-none sm:rounded-tr-lg"
+      >
+        <div class="flex flex-col items-start p-7 gap-7">
+          <img src="images/icon-luxury.svg" alt="luxury icon" />
+          <h1
+            class="text-Very_light_gray text-3xl font-Big_Shoulders_Display font-bold uppercase tracking-wider"
+          >
+            luxury
+          </h1>
+          <p class="text-Transparent_white font-Lexend_Deca text-sm">
+            Cruise in the best car brands without the bloated prices. Enjoy the
+            enhanced comfort of a luxury rental and arrive in style.
+          </p>
+          <button
+            class="bg-Very_light_gray rounded-3xl w-[130px] h-[45px] text-Very_dark_cyan font-Lexend_Deca cursor-pointer text-center border-solid border-2 border-Very_dark_cyan font-normal text-sm hover:bg-transparent hover:border-white hover:text-Very_light_gray transition ease-in sm:mt-7"
+          >
+            Learn More
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <footer class="flex flex-col items-start justify-start">
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Abdallah Hamada</a>.
+      </div>
+    </footer>
+  </body>
+</html>
