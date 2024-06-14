@@ -31,6 +31,8 @@ Frontend Mentor is a platform that provides a variety of frontend coding challen
 | HTML, TailwindCSS | HTML--CSS | NFT preview card component| [Live](https://nft-preview-card-component-nu-puce.vercel.app/) | [Code](./nft-preview-card-component) | Free |
 | HTML, TailwindCSS | HTML--CSS | Omelette recipe page| [Live](https://recipe-page-dun-xi.vercel.app/) | [Code](./Recipe-page) | Free |
 | HTML, TailwindCSS | HTML--CSS | Stats preview component| [Live](https://stats-preview-card-component-theta-six.vercel.app/) | [Code](./stats-preview-card-component) | Free |
+| HTML, TailwindCSS | HTML--CSS | 3 coloumn preview card component| [Live](https://3-column-preview-card-component-eight-bice.vercel.app/) | [Code](./3-column-preview-card-component) | Free |
+
 
 
 
