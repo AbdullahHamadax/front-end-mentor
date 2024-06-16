@@ -1,33 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              Violet: "hsl(257, 40%, 49%)",
+              Soft_Magenta: "hsl(300, 69%, 71%)",
+            },
+            fontFamily: {
+              Poppins: ["Poppins"],
+              Open_Sans: ["Open Sans"],
+            },
+            screens: {
+              xs: "376px",
+            },
+          },
+        },
+      };
+    </script>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+    <title>
+      Frontend Mentor | Huddle landing page with single introductory section
+    </title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
-  Build The Community Your Fans Will Love
-
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
-
-  Register
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+      .attribution {
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        margin-top: 20px;
+      }
+      .attribution a {
+        color: red;
+      }
+      .me a {
+        color: white;
+      }
+    </style>
+  </head>
+  <body
+    class="min-h-screen bg-Violet bg-[url('./images/bg-mobile.svg')] bg-no-repeat sm:bg-[url('./images/bg-desktop.svg')] xs:bg-cover xs:bg-[url('./images/bg-desktop.svg')] sm:bg-no-repeat"
+  >
+    <div class="flex p-6">
+      <img src="images/logo.svg" alt="huddle" class="w-[140px]" />
+    </div>
+    <div
+      class="flex flex-col gap-20 sm:flex-row sm:items-center sm:justify-center sm:mt-[140px] sm:mr-[200px]"
+    >
+      <div class="flex items-center justify-center mt-11">
+        <img
+          src="images/illustration-mockups.svg"
+          alt="mobile and desktop design of huddle "
+          class="w-[300px] sm:w-[1200px] sm:h-auto"
+        />
+      </div>
+      <div
+        class="flex flex-col items-center justify-center gap-5 text-center sm:text-left sm:items-start sm:mt-[140px] lg:mt-0 sm:justify-end"
+      >
+        <p
+          class="text-3xl font-semibold text-white font-Open_Sans max-w-[20ch] sm:text-4xl"
+        >
+          Build The Community Your Fans Will Love
+        </p>
+        <p
+          class="text-lg font-normal text-white font-Poppins max-w-[34ch] sm:max-w-[48ch]"
+        >
+          Huddle re-imagines the way we build communities. You have a voice, but
+          so does your audience. Create connections with your users as you
+          engage in genuine discussion.
+        </p>
+        <button
+          class="bg-white text-Violet font-Poppins hover:bg-Soft_Magenta hover:text-white transition ease-in font-normal text-center rounded-3xl shadow-2xl w-[230px] h-[50px] sm:w-[190px]"
+        >
+          Register
+        </button>
+        <div class="flex gap-3 mt-10 mb-5 sm:self-end">
+          <i
+            class="text-3xl text-white transition ease-in fa-brands fa-facebook hover:text-Soft_Magenta"
+          ></i>
+          <i
+            class="text-3xl text-white transition ease-in fa-brands fa-x-twitter hover:text-Soft_Magenta"
+          ></i>
+          <i
+            class="text-3xl text-white transition ease-in fa-brands fa-instagram hover:text-Soft_Magenta"
+          ></i>
+        </div>
+      </div>
+    </div>
+    <footer class="flex flex-col items-center justify-center">
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Abdalla Hamada</a>.
+      </p>
+    </footer>
+  </body>
 </html>

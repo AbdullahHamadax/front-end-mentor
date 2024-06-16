@@ -1,6 +1,6 @@
-# Frontend Mentor - Huddle landing page with single introductory section
+# Frontend Mentor - Social proof section
 
-![Design preview for the Huddle landing page with single introductory section](./design/desktop-preview.jpg)
+![Design preview for the Social proof section coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
@@ -12,14 +12,13 @@ Thanks for checking out this front-end coding challenge.
 
 ## The challenge
 
-Your challenge is to build out this landing page from the designs provided in the starter code.
+Your challenge is to build out this social proof section and get it looking as close to the design as possible.
 
 You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
-Your users should be able to: 
+Your users should be able to:
 
-- View the optimal layout for the page depending on their device's screen size
-- See hover states for all interactive elements on the page
+- View the optimal layout for the section depending on their device's screen size
 
 Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
 
