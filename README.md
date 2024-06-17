@@ -18,7 +18,7 @@ Frontend Mentor is a platform that provides a variety of frontend coding challen
 
 ### 1. Newbie
 
-| Technologies Used | Tags  | Challenges | Live | Code | Price |
+| Technologies Used | Tags  | Challenge | Live | Code | Price |
 | --- | --- | --- | --- | --- | --- |
 | HTML, CSS | HTML--CSS | QR code component | [Live](https://qr-code-seven-pied.vercel.app/) | [Code](./Qr-code) | Free |
 | HTML, CSS | HTML--CSS | Blog card component | [Live](https://blog-card-inky.vercel.app/) | [Code](./Blog-card) | Free+ |
@@ -32,6 +32,8 @@ Frontend Mentor is a platform that provides a variety of frontend coding challen
 | HTML, TailwindCSS | HTML--CSS | Omelette recipe page| [Live](https://recipe-page-dun-xi.vercel.app/) | [Code](./Recipe-page) | Free |
 | HTML, TailwindCSS | HTML--CSS | Stats preview component| [Live](https://stats-preview-card-component-theta-six.vercel.app/) | [Code](./stats-preview-card-component) | Free |
 | HTML, TailwindCSS | HTML--CSS | 3 coloumn preview card component| [Live](https://3-column-preview-card-component-eight-bice.vercel.app/) | [Code](./3-column-preview-card-component) | Free |
+| HTML, TailwindCSS | HTML--CSS | Huddle Landing Page| [Live](https://huddle-landing-page-gray-nu.vercel.app/) | [Code](./huddle-landing-page) | Free |
+
 
 
 
