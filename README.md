@@ -1,6 +1,6 @@
 # Frontend Mentor Projects
 
-Welcome to my Frontend Mentor Projects repository! Here you'll find a collection of projects I've completed from **Frontend Mentor**, an amazing platform designed to improve front-end development skills through **real-world** projects.
+Welcome to my Frontend Mentor Projects repository! Here you'll find a collection of projects I've completed from **Frontend Mentor**, a great platform designed to improve front-end development skills through **real-world** projects.
 
 ## About Frontend Mentor 🎨
 Frontend Mentor is a platform that provides a variety of frontend coding challenges to help developers improve their skills. Each challenge includes a design mockup and screenshots with to implement the design using **HTML, CSS, and JavaScript ( obviously any framework usage is welcome, the site doesn't restrict anything.)**
