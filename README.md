@@ -1,9 +1,9 @@
 # Frontend Mentor Projects
 
-Welcome to my Frontend Mentor Projects repository! Here you'll find a collection of projects I've completed from **Frontend Mentor**, an amazing platform designed to improve front-end development skills through **real-world** projects.
+Welcome to my Frontend Mentor Projects repository! Here you'll find a collection of projects I've completed from **Frontend Mentor**, a great platform designed to improve front-end development skills through **real-world** projects.
 
 ## About Frontend Mentor 🎨
-Frontend Mentor is a platform that provides a variety of frontend coding challenges to help developers improve their skills. Each challenge includes a design mockup and screenshots with to implement the design using **HTML, CSS, and JavaScript ( obviously any framework usage is welcome, the site doesn't restrict anything.)**
+Frontend Mentor is a platform that provides a variety of frontend coding challenges to help developers improve their skills. Each challenge includes a design mockup and screenshots with to implement the design using **HTML, CSS, and JavaScript ( obviously any framework usage is fine, the site doesn't restrict anything.)**
 
 ## NOTE ❗
 > As I'm still a beginner, my code may contain errors and unnecessary CSS properties. However, with each project, I'm learning and improving, and I'll continue to refine my code as my skills progress.
@@ -18,7 +18,7 @@ Frontend Mentor is a platform that provides a variety of frontend coding challen
 
 ### 1. Newbie
 
-| Technologies Used | Tags  | Challenges | Live | Code | Price |
+| Technologies Used | Tags  | Challenge | Live | Code | Price |
 | --- | --- | --- | --- | --- | --- |
 | HTML, CSS | HTML--CSS | QR code component | [Live](https://qr-code-seven-pied.vercel.app/) | [Code](./Qr-code) | Free |
 | HTML, CSS | HTML--CSS | Blog card component | [Live](https://blog-card-inky.vercel.app/) | [Code](./Blog-card) | Free+ |
@@ -32,6 +32,8 @@ Frontend Mentor is a platform that provides a variety of frontend coding challen
 | HTML, TailwindCSS | HTML--CSS | Omelette recipe page| [Live](https://recipe-page-dun-xi.vercel.app/) | [Code](./Recipe-page) | Free |
 | HTML, TailwindCSS | HTML--CSS | Stats preview component| [Live](https://stats-preview-card-component-theta-six.vercel.app/) | [Code](./stats-preview-card-component) | Free |
 | HTML, TailwindCSS | HTML--CSS | 3 coloumn preview card component| [Live](https://3-column-preview-card-component-eight-bice.vercel.app/) | [Code](./3-column-preview-card-component) | Free |
+| HTML, TailwindCSS | HTML--CSS | Huddle Landing Page| [Live](https://huddle-landing-page-gray-nu.vercel.app/) | [Code](./huddle-landing-page) | Free |
+
 
 
 
