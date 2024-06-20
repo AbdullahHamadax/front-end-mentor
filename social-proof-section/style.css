@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+
+:root {
+  --headers-color: hsl(300, 43%, 22%);
+  --verified-buyer: hsl(333, 80%, 67%);
+  --buyer-name: hsl(0, 0%, 100%);
+  --bio-color: hsl(303, 10%, 53%);
+  --ratings-div: hsl(300, 24%, 96%);
+  --font-weight-1: 400;
+  --font-weight-2: 500;
+  --font-weight-3: 700;
+}
+
+/* ----- Browser Reset ----- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: "League Spartan", sans-serif;
+}
+/* ----- Browser Reset end ----- */
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: var(--buyer-name);
+  background: url(images/bg-pattern-top-desktop.svg) top left,
+    url(images/bg-pattern-bottom-desktop.svg) bottom right;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* ----- Header and text ----- */
+.bio__number {
+  text-align: center;
+  margin: 4rem 2rem;
+  color: var(--headers-color);
+  font-weight: var(--font-weight-3);
+  margin-bottom: 15px;
+  font-size: 40px;
+}
+
+.bio__text {
+  color: var(--bio-color);
+  font-weight: var(--font-weight-2);
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+/* ----- Header and text end ----- */
+
+/* ----- 5 Stars Reviews ----- */
+.review {
+  background-color: var(--ratings-div);
+  padding: 20px;
+  border-radius: 8px;
+  width: 350px;
+  height: 75px;
+}
+
+.review_items {
+  gap: 15px;
+  color: var(--headers-color);
+  font-weight: var(--font-weight-3);
+}
+
+.stars {
+  gap: 8px;
+}
+
+/* ----- 5 Stars end ----- */
+
+/* ----- Both cards----- */
+.container-2,
+.container-3 {
+  gap: 15px;
+}
+
+/* ----- Testimonials----- */
+.feedback-card {
+  width: 290px;
+  height: 220px;
+  background: var(--headers-color);
+  border-radius: 8px;
+  padding: 30px;
+  gap: 25px;
+}
+
+.feedback-card h1 {
+  color: white;
+  font-size: 16px;
+}
+
+.feedback-card p:not(.verified_buyer) {
+  color: white;
+  width: 250px;
+  line-height: 20px;
+}
+
+.feedback-card img {
+  border-radius: 50%;
+  width: 40px;
+}
+
+.wrapper-2 {
+  gap: 20px;
+}
+
+.verified_buyer {
+  color: var(--verified-buyer);
+  font-weight: (--font-weight-3);
+}
+/* ----- Testimonials end----- */
+
+/* ----- utility classes ----- */
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.gap-1 {
+  gap: 0.25rem;
+}
+
+.mt-11 {
+  margin-top: 2.75rem;
+}
+
+/* ----- utility classes end ----- */
+
+/* ----- Responsive Design----- */
+
+@media screen and (min-width: 640px) {
+  .container-2,
+  .container-3 {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container-1 {
+    justify-content: space-between;
+  }
+  .container-1,
+  .container-3 {
+    flex-direction: row;
+  }
+
+  .container-2 {
+    flex-direction: column;
+  }
+
+  .container-3 {
+    gap: 25px;
+  }
+
+  .wrapper-1 {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .bio__number {
+    margin: 0;
+    text-align: left;
+    max-width: 15ch;
+  }
+  .bio__text {
+    text-align: left;
+    max-width: 25em;
+  }
+
+  .review_items {
+    flex-direction: row;
+  }
+
+  .review-1 {
+    margin-right: 60px;
+  }
+
+  .review-3 {
+    margin-left: 50px;
+  }
+
+  .feedback-card {
+    width: 320px;
+    gap: 30px;
+  }
+
+  .feedback-1 {
+    margin-bottom: 30px;
+  }
+
+  .feedback-3 {
+    margin-top: 30px;
+  }
+
+  .feedback-1 p {
+    width: 2em;
+  }
+
+  .review {
+    width: 380px;
+    height: 52px;
+  }
+}
+/* ----- Responsive Design end----- */

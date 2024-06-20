@@ -3,8 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="icon"
       type="image/png"
@@ -14,10 +13,9 @@
 
     <title>Frontend Mentor | Social proof section</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
       .attribution {
-        font-size: 11px;
+        font-size: 18px;
         text-align: center;
       }
       .attribution a {
@@ -26,23 +24,111 @@
     </style>
   </head>
   <body>
-    10,000+ of our users love our products. We only provide great products
-    combined with excellent customer service. See what our satisfied customers
-    are saying about our services. Rated 5 Stars in Reviews Rated 5 Stars in
-    Report Guru Rated 5 Stars in BestTech Colton Smith Verified Buyer "We needed
-    the same printed design as the one we had ordered a week prior. Not only did
-    they find the original order, but we also received it in time. Excellent!"
-    Irene Roberts Verified Buyer "Customer service is always excellent and very
-    quick turn around. Completely delighted with the simplicity of the purchase
-    and the speed of delivery." Anne Wallace Verified Buyer "Put an order with
-    this company and can only praise them for the very high standard. Will
-    definitely use them again and recommend them to everyone!"
+    <main class="main-container flex flex-col items-center justify-center">
+      <div class="container-1 flex flex-col">
+        <div class="wrapper-1 flex flex-col">
+          <h1 class="bio__number">10,000+ of our users love our products.</h1>
+          <p class="bio__text text-center">
+            We only provide great products combined with excellent customer
+            service. See what our satisfied customers are saying about our
+            services.
+          </p>
+        </div>
+
+        <div
+          class="container-2 flex flex-col items-center justify-center text-center"
+        >
+          <div class="review review-1">
+            <div class="flex flex-col review_items">
+              <div class="flex items-center justify-center stars">
+                <img src="images/icon-star.svg" alt="star" />
+                <img src="images/icon-star.svg" alt="star" />
+                <img src="images/icon-star.svg" alt="star" />
+                <img src="images/icon-star.svg" alt="star" />
+                <img src="images/icon-star.svg" alt="star" />
+              </div>
+              <p>Rated 5 Stars in Reviews</p>
+            </div>
+          </div>
+          <div class="review review-2">
+            <div class="flex flex-col review_items">
+              <div class="flex items-center justify-center stars">
+                <img src="images/icon-star.svg" alt="star" />
+                <img src="images/icon-star.svg" alt="star" />
+                <img src="images/icon-star.svg" alt="star" />
+                <img src="images/icon-star.svg" alt="star" />
+                <img src="images/icon-star.svg" alt="star" />
+              </div>
+              <p>Rated 5 Stars in Report Guru</p>
+            </div>
+          </div>
+          <div class="review review-3">
+            <div class="flex flex-col review_items">
+              <div class="flex items-center justify-center stars">
+                <img src="images/icon-star.svg" alt="star" />
+                <img src="images/icon-star.svg" alt="star" />
+                <img src="images/icon-star.svg" alt="star" />
+                <img src="images/icon-star.svg" alt="star" />
+                <img src="images/icon-star.svg" alt="star" />
+              </div>
+              <p>Rated 5 Stars in BestTech</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-3 flex flex-col items-center justify-center mt-11">
+        <div class="feedback-card feedback-1 flex flex-col">
+          <div class="wrapper-2 flex items-center">
+            <img src="images/image-colton.jpg" alt="colton smith" />
+            <div class="flex flex-col gap-1">
+              <h1>Colton Smith</h1>
+              <p class="verified_buyer">Verified Buyer</p>
+            </div>
+          </div>
+          <p>
+            " We needed the same printed design as the one we had ordered a week
+            prior. Not only did they find the original order, but we also
+            received it in time. Excellent!"
+          </p>
+        </div>
+        <div class="feedback-card feedback-2 flex flex-col">
+          <div class="wrapper-2 flex items-center">
+            <img src="images/image-irene.jpg" alt="irene roberts" />
+            <div class="flex flex-col gap-1">
+              <h1>Irene Roberts</h1>
+              <p class="verified_buyer">Verified Buyer</p>
+            </div>
+          </div>
+          <p>
+            " Customer service is always excellent and very quick turn around.
+            Completely delighted with the simplicity of the purchase and the
+            speed of delivery."
+          </p>
+        </div>
+        <div class="feedback-card feedback-3 flex flex-col">
+          <div class="wrapper-2 flex items-center">
+            <img src="images/image-anne.jpg" alt="Anne Wallace" />
+            <div class="flex flex-col">
+              <h1>Anne Wallace</h1>
+              <p class="verified_buyer">Verified Buyer</p>
+            </div>
+          </div>
+
+          <p>
+            " Put an order with this company and can only praise them for the
+            very high standard. Will definitely use them again and recommend
+            them to everyone!"
+          </p>
+        </div>
+      </div>
+    </main>
 
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by <a href="#">Abdallah Hamada</a>.
     </div>
   </body>
 </html>
