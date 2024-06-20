@@ -43,7 +43,7 @@ img {
   color: var(--headers-color);
   font-weight: var(--font-weight-3);
   margin-bottom: 15px;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .bio__text {
@@ -167,12 +167,15 @@ img {
 }
 
 @media screen and (min-width: 1024px) {
-  .container-1 {
-    justify-content: space-between;
-  }
   .container-1,
   .container-3 {
     flex-direction: row;
+  }
+
+  .container-1 {
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
   }
 
   .container-2 {
@@ -191,11 +194,11 @@ img {
   .bio__number {
     margin: 0;
     text-align: left;
-    max-width: 15ch;
+    max-width: 12ch;
   }
   .bio__text {
     text-align: left;
-    max-width: 25em;
+    max-width: 45ch;
   }
 
   .review_items {
@@ -221,10 +224,6 @@ img {
 
   .feedback-3 {
     margin-top: 30px;
-  }
-
-  .feedback-1 p {
-    width: 2em;
   }
 
   .review {
