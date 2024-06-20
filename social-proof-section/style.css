@@ -201,16 +201,20 @@ img {
     max-width: 45ch;
   }
 
+  .container-2 .review {
+    width: 400px;
+  }
+
   .review_items {
     flex-direction: row;
   }
 
   .review-1 {
-    margin-right: 60px;
+    margin-right: 90px;
   }
 
   .review-3 {
-    margin-left: 50px;
+    margin-left: 100px;
   }
 
   .feedback-card {
