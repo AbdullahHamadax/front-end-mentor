@@ -1,30 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              // storage bar gradients
+              Gradient_1: "hsl(6, 100%, 80%)",
+              Gradient_2: "hsl(335, 100%, 65%)",
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Fylo data storage component</title>
+              // text
+              Pale_Blue: "hsl(243, 100%, 93%)",
+              Grayish_Blue: "hsl(229, 7%, 55%)",
 
-  <style>
-    .attribution { font-size: 14px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+              // cards
+              Dark_Blue: "hsl(228, 56%, 26%)",
+              // icons background
+              Very_Dark_Blue: "hsl(229, 57%, 11%)",
+            },
+            fontFamily: {
+              Raleway: ["Raleway"],
+            },
+            keyframes: {
+              filled: {
+                "0%": {
+                  width: 0,
+                  opacity: 0,
+                },
+                "100%": {
+                  opacity: 1,
+                },
+              },
+            },
+            animation: {
+              filled: "filled 1s ease-in-out forwards",
+            },
+          },
+        },
+      };
+    </script>
 
-  You’ve used 815 GB of your storage
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  185 GB Left
-  
-  0 GB
-  1000 GB
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Abdallah Hamada</a>.
-  </div>
-</body>
+    <title>Frontend Mentor | Fylo data storage component</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+      .attribution {
+        margin-top: auto;
+        text-align: center;
+        color: red;
+      }
+      .attribution a {
+        color: green;
+      }
+    </style>
+  </head>
+  <body
+    class="flex flex-col items-center min-h-screen text-[14px] bg-[url('./images/bg-mobile.png')] bg-cover md:bg-contain md:bg-[url('./images/bg-desktop.png')] bg-no-repeat bg-bottom bg-Very_Dark_Blue font-Raleway"
+  >
+    <div class="flex flex-col gap-5">
+      <div
+        class="bg-Dark_Blue p-10 w-[21rem] h-[12.5rem] flex flex-col gap-9 rounded-tl-xl rounded-bl-xl rounded-br-xl rounded-tr-[120px] mt-[10rem]"
+      >
+        <img src="images/logo.svg" alt="Fylo logo" class="w-[8rem]" />
+        <div class="flex items-center gap-3">
+          <div
+            class="flex items-center justify-center p-2 rounded-lg w-11 h-11 bg-Very_Dark_Blue"
+          >
+            <img src="images/icon-document.svg" alt="document icon" />
+          </div>
+          <div
+            class="flex items-center justify-center p-2 rounded-lg w-11 h-11 bg-Very_Dark_Blue"
+          >
+            <img src="images/icon-folder.svg" alt="folder icon" />
+          </div>
+          <div
+            class="flex items-center justify-center p-2 rounded-lg w-11 h-11 bg-Very_Dark_Blue"
+          >
+            <img src="images/icon-upload.svg" alt="upload icon" />
+          </div>
+        </div>
+      </div>
+      <div class="bg-Dark_Blue p-10 w-[21rem] h-[10.5rem] rounded-xl">
+        <p class="mb-3 font-normal text-center text-Grayish_Blue">
+          You've used <span class="font-bold text-Pale_Blue">815 GB </span>of
+          your storage
+        </p>
+        <div class="h-5 w-[16rem] rounded-xl p-[0.1rem] bg-Very_Dark_Blue">
+          <div
+            class="w-[12rem] relative rounded-lg h-full bg-gradient-to-r from-Gradient_1 to-Gradient_2 animate-filled"
+          >
+            <div
+              class="absolute top-0 bottom-0 right-[0.19rem] w-[0.6rem] h-[0.6rem] m-auto bg-white rounded-full"
+            ></div>
+          </div>
+        </div>
+        <div class="flex justify-between mt-2 font-bold text-Pale_Blue">
+          <p>0 GB</p>
+          <p>1000 GB</p>
+        </div>
+        <div class="flex items-center justify-center mt-5">
+          <div
+            class="h-[5.2rem] animate-pulse bg-white w-[12rem] rounded-xl flex gap-3 items-center justify-center"
+          >
+            <p class="text-5xl font-bold text-Very_Dark_Blue">185</p>
+            <p class="font-bold tracking-widest uppercase text-Grayish_Blue">
+              GB left
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Abdallah Hamada</a>.
+    </div>
+  </body>
 </html>
