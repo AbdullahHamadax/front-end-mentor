@@ -40,7 +40,7 @@ Frontend Mentor is a platform that provides a variety of frontend coding challen
 
 | Technologies Used | Tags  | Challenge | Live | Code | Price |
 | --- | --- | --- | --- | --- | --- |
-| HTML, CSS | HTML--CSS | Fylo data storage component | [Live](https://fylo-data-storage-component-gamma-one.vercel.app/) | [Code](./fylo-data-storage-component) | Free |
+| HTML, TailwindCSS | HTML--CSS | Fylo data storage component | [Live](https://fylo-data-storage-component-gamma-one.vercel.app/) | [Code](./fylo-data-storage-component) | Free |
 
 
 
