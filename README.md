@@ -24,7 +24,7 @@ Frontend Mentor is a platform that provides a variety of frontend coding challen
 | HTML, CSS | HTML--CSS | Blog card component | [Live](https://blog-card-inky.vercel.app/) | [Code](./Blog-card) | Free+ |
 | HTML, CSS | HTML--CSS | Social links profile | [Live](https://social-links-profile-two-azure.vercel.app/) | [Code](./Social-links-profile) | Free |
 | HTML, TailwindCSS | HTML--CSS | Results summary component | [Live](https://results-summary-sand.vercel.app/) | [Code](./Results-summary) | Free |
-| HTML, TailwindCSS | HTML--CSS | Product preview Component | [Live](https://product-preview-card-component-xi-black.vercel.app/) | [Code](./product-preview-card-component) | Free |
+| HTML, TailwindCSS | HTML--CSS | Product preview component | [Live](https://product-preview-card-component-xi-black.vercel.app/) | [Code](./product-preview-card-component) | Free |
 | HTML, TailwindCSS | HTML--CSS | Order summary component | [Live](https://order-summary-component-eight-blond.vercel.app/) | [Code](./Order-summary-component) | Free |
 | HTML, TailwindCSS | HTML--CSS | Profile card component | [Live](https://profile-card-component-gray-five.vercel.app/) | [Code](./Profile-card-component) | Free |
 | HTML, TailwindCSS | HTML--CSS | Single price grid component| [Live](https://single-price-grid-component-dun-nine.vercel.app/) | [Code](./Single-price-grid-component) | Free |
@@ -32,11 +32,15 @@ Frontend Mentor is a platform that provides a variety of frontend coding challen
 | HTML, TailwindCSS | HTML--CSS | Omelette recipe page| [Live](https://recipe-page-dun-xi.vercel.app/) | [Code](./Recipe-page) | Free |
 | HTML, TailwindCSS | HTML--CSS | Stats preview component| [Live](https://stats-preview-card-component-theta-six.vercel.app/) | [Code](./stats-preview-card-component) | Free |
 | HTML, TailwindCSS | HTML--CSS | 3 coloumn preview card component| [Live](https://3-column-preview-card-component-eight-bice.vercel.app/) | [Code](./3-column-preview-card-component) | Free |
-| HTML, TailwindCSS | HTML--CSS | Huddle Landing Page| [Live](https://huddle-landing-page-gray-nu.vercel.app/) | [Code](./huddle-landing-page) | Free |
+| HTML, TailwindCSS | HTML--CSS | Huddle landing page| [Live](https://huddle-landing-page-gray-nu.vercel.app/) | [Code](./huddle-landing-page) | Free |
 | HTML, CSS | HTML--CSS | Social proof section | [Live](https://social-proof-section-iota.vercel.app/) | [Code](./social-proof-section) | Free |
 
+### 2. Junior
 
 
+| Technologies Used | Tags  | Challenge | Live | Code | Price |
+| --- | --- | --- | --- | --- | --- |
+| HTML, CSS | HTML--CSS | Fylo data storage component | [Live](https://fylo-data-storage-component-gamma-one.vercel.app/) | [Code](./fylo-data-storage-component) | Free |
 
 
 
