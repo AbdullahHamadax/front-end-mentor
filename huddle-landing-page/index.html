@@ -3,117 +3,84 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
     <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              Violet: "hsl(257, 40%, 49%)",
-              Soft_Magenta: "hsl(300, 69%, 71%)",
-            },
-            fontFamily: {
-              Poppins: ["Poppins"],
-              Open_Sans: ["Open Sans"],
-            },
-            screens: {
-              xs: "376px",
-            },
-          },
-        },
-      };
-    </script>
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
-    <title>
-      Frontend Mentor | Huddle landing page with single introductory section
-    </title>
-
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
-
-      .attribution {
-        font-size: 20px;
-        text-align: center;
-        color: white;
-        margin-top: auto;
-      }
-      .attribution a {
-        color: red;
-      }
-      .me a {
-        color: white;
-      }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Huddle Landing Page</title>
+    <script
+      src="https://kit.fontawesome.com/32c384e39d.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body
-    class="overflow-hidden bg-Violet bg-[url('./images/bg-mobile.svg')] bg-no-repeat sm:bg-[url('./images/bg-desktop.svg')] xs:bg-cover xs:bg-[url('./images/bg-desktop.svg')] sm:bg-no-repeat"
+    class="bg-[#684BB1] relative min-h-screen p-4 font-[poppins] bg-[url('./images/bg-mobile.svg')] bg-no-repeat lg:bg-[url('./images/bg-desktop.svg')] bg-cover"
   >
-    <div class="flex p-6">
-      <img src="images/logo.svg" alt="huddle" class="w-[140px]" />
-    </div>
+    <header class="self-start">
+      <img src="./images/logo.svg" alt="Huddle" class="w-[12rem] mb-12" />
+    </header>
     <div
-      class="flex flex-col gap-20 sm:flex-row sm:items-center sm:justify-center"
+      class="flex flex-col items-center justify-center lg:mt-40 lg:flex-row lg:items-start lg:justify-center lg:gap-12"
     >
-      <div class="flex items-center justify-center mt-20">
-        <img
-          src="images/illustration-mockups.svg"
-          alt="mobile and desktop design of huddle "
-          class="w-[300px] sm:w-[950px] sm:h-auto"
-        />
-      </div>
+      <img
+        src="./images//illustration-mockups.svg"
+        alt="Illustration"
+        class="w-[30rem] lg:w-[45rem]"
+      />
       <div
-        class="flex flex-col items-center justify-center gap-5 text-center sm:text-left sm:items-start sm:justify-end"
+        class="flex flex-col items-center gap-6 mt-12 text-center lg:items-start lg:text-left"
       >
-        <p
-          class="text-3xl font-semibold text-white font-Open_Sans max-w-[20ch] sm:text-4xl"
-        >
+        <p class="font-semibold text-4xl max-w-[20ch] text-white">
           Build The Community Your Fans Will Love
         </p>
-        <p
-          class="text-lg font-normal text-white font-Poppins max-w-[34ch] sm:max-w-[48ch]"
-        >
+        <p class="text-xl max-w-[70ch] lg:max-w-[45ch] text-white">
           Huddle re-imagines the way we build communities. You have a voice, but
           so does your audience. Create connections with your users as you
           engage in genuine discussion.
         </p>
         <button
-          class="bg-white text-Violet font-Poppins hover:bg-Soft_Magenta hover:text-white transition ease-in font-normal text-center rounded-3xl shadow-2xl w-[230px] h-[50px] sm:w-[190px]"
+          class="px-[5.5rem] py-3 lg:px-[3.5rem] lg:py-3 font-medium rounded-full bg-white text-[0.75rem] text-[#684BB1] shadow-[2px_4px_9px_3px_rgba(0,0,0,0.26)] transition hover:bg-[#E880E8] hover:text-white lg:text-[1.125rem]"
         >
           Register
         </button>
-        <div class="flex gap-3 mt-10 mb-5 sm:self-end">
-          <i
-            class="text-3xl text-white transition ease-in fa-brands fa-facebook hover:text-Soft_Magenta"
-          ></i>
-          <i
-            class="text-3xl text-white transition ease-in fa-brands fa-x-twitter hover:text-Soft_Magenta"
-          ></i>
-          <i
-            class="text-3xl text-white transition ease-in fa-brands fa-instagram hover:text-Soft_Magenta"
-          ></i>
-        </div>
       </div>
     </div>
-    <footer>
-      <p class="attribution">
+    <footer class="flex flex-col items-center justify-center">
+      <div
+        class="flex items-center justify-center gap-4 mt-20 lg:mx-12 mb-7 lg:self-end"
+      >
+        <i
+          class="fa-brands fa-facebook-f cursor-pointer size-10 rounded-full border border-white text-white transition hover:border-[#FF52C1] hover:text-[#FF52C1] flex items-center justify-center"
+        ></i>
+        <i
+          class="fa-brands fa-twitter cursor-pointer size-10 rounded-full border border-white text-white transition hover:border-[#FF52C1] hover:text-[#FF52C1] flex items-center justify-center"
+        ></i>
+        <i
+          class="fa-brands fa-instagram cursor-pointer size-10 rounded-full border border-white text-white transition hover:border-[#FF52C1] hover:text-[#FF52C1] flex items-center justify-center"
+        ></i>
+      </div>
+      <p class="absolute bottom-0 text-center text-white attribution">
         Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          class="transition hover:text-[#FF52C1] cursor-pointer"
           >Frontend Mentor</a
-        >. Coded by <a href="#">Abdallah Hamada</a>.
+        >. Coded by
+        <a
+          href="https://www.frontendmentor.io/profile/AbdullahHamadax"
+          class="transition hover:text-[#FF52C1] cursor-pointer"
+          >Abdallah Hamada</a
+        >.
       </p>
     </footer>
   </body>
