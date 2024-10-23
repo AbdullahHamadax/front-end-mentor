@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Frontend Mentor | Bento grid</title>
+
+    <style>
+      body {
+        font-family: "DM Sans", sans-serif;
+        font-size: 1.125rem;
+      }
+      .attribution {
+        font-size: 15px;
+        text-align: center;
+      }
+      .attribution a {
+        color: #3e52a3;
+      }
+    </style>
+  </head>
+  <body class="flex flex-col items-center min-h-screen p-5 bg-[#f5f5f5]">
+    <div
+      class="container grid max-w-[80rem] sm:grid-cols-2 lg:grid-cols-4 gap-7 lg:grid-rows-12"
+    >
+      <div
+        class="bg-[#7650dc] rounded-lg flex flex-col items-center text-center p-6 order-1 lg:order-2 lg:row-span-4 lg:col-span-2 lg:justify-center"
+      >
+        <h1 class="text-5xl font-medium text-white text-balance lg:text-6xl">
+          Social Media <span class="text-[#ffcb6b]">10x</span> Faster with AI
+        </h1>
+        <img
+          src="assets/images/illustration-five-stars.webp"
+          alt="five stars"
+          class="w-[12rem] mt-7"
+        />
+        <p class="text-lg text-white">Over 4,000 5-star reviews</p>
+      </div>
+
+      <div
+        class="flex flex-col items-center order-2 gap-3 p-5 overflow-hidden text-left text-black bg-white rounded-lg lg:gap-7 lg:order-5 lg:row-span-4 lg:row-start-5"
+      >
+        <img
+          src="assets/images/illustration-multiple-platforms.webp"
+          alt="platform accounts"
+          class="lg:relative lg:left-[1.5rem] w-[20rem] rounded-full drop-shadow-md lg:transform lg:scale-125"
+        />
+        <p class="text-xl font-medium text-pretty sm:text-4xl">
+          Manage multiple accounts and platforms.
+        </p>
+      </div>
+
+      <div
+        class="relative flex flex-col items-start gap-4 text-left overflow-hidden pb-0 text-black bg-[#ffcb6b] rounded-lg p-5 order-3 lg:order-6 lg:row-span-4 lg:row-start-5"
+      >
+        <p class="text-2xl font-medium text-balance lg:text-4xl">
+          Maintain a consistent posting schedule.
+        </p>
+        <img
+          src="assets/images/illustration-consistent-schedule.webp"
+          alt="consistent schedule"
+          class="w-[15rem] lg:absolute lg:top-[11.5rem]"
+        />
+      </div>
+
+      <div
+        class="flex flex-col lg:text-left gap-4 text-center overflow-hidden text-black bg-[#dacffc] rounded-lg p-5 order-4 lg:order-3 lg:row-span-8"
+      >
+        <p class="text-2xl font-medium lg:text-4xl">
+          Schedule to social media.
+        </p>
+        <img
+          src="assets/images/illustration-schedule-posts.webp"
+          alt="platform accounts"
+          class="w-[23rem]"
+        />
+        <p class="text-lg font-normal lg:text-3xl">
+          Optimize post timings to publish content at the perfect time for your
+          audience.
+        </p>
+      </div>
+
+      <div
+        class="bg-[#7650dc] rounded-lg flex flex-col gap-9 items-center lg:text-left text-center p-6 order-5 lg:order-8 lg:col-span-2 lg:row-span-4 lg:flex-row"
+      >
+        <img
+          src="assets/images/illustration-grow-followers.webp"
+          alt="followers growth"
+          class="pt-0 w-[14rem] lg:w-[15rem]"
+        />
+        <p
+          class="px-2 text-4xl font-medium text-white text-balance lg:text-wrap lg:text-4xl"
+        >
+          Grow followers with non-stop content.
+        </p>
+      </div>
+
+      <div
+        class="flex flex-col items-start order-6 gap-3 p-5 text-black bg-white rounded-lg lg:order-7 lg:row-span-4"
+      >
+        <h1 class="text-4xl font-medium lg:text-5xl">>56%</h1>
+        <p class="">faster audience growth</p>
+        <img
+          src="assets/images/illustration-audience-growth.webp"
+          alt="audience"
+          class="w-[11rem] mt-5"
+        />
+      </div>
+
+      <div
+        class="flex flex-col items-start gap-4 p-5 text-black bg-[#f9eee1] rounded-lg order-7 lg:order-1 lg:row-span-6 lg:row-start-1 lg:col-start-1 lg:p-10"
+      >
+        <p class="text-3xl font-medium lg:text-5xl">
+          Create and schedule content
+          <span class="italic text-[#7650dc]">quicker.</span>
+        </p>
+        <img
+          src="assets/images/illustration-create-post.webp"
+          alt="create post button"
+          class="w-[12rem] lg:self-center"
+        />
+      </div>
+
+      <div
+        class="flex flex-col items-start lg:place-content-between gap-4 p-5 text-black bg-[#ffcb6b] rounded-lg order-8 lg:order-4 lg:row-span-6 lg:col-start-1"
+      >
+        <p class="text-3xl font-medium lg:text-4xl lg:max-w-[7ch]">
+          Write your content using AI.
+        </p>
+        <img
+          src="assets/images/illustration-ai-content.webp"
+          alt="ai content"
+          class="w-[13rem] lg:w-[15rem]"
+        />
+      </div>
+    </div>
+
+    <div class="mt-auto attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="#">Abdallah Hamada</a>.
+    </div>
+  </body>
+</html>
