@@ -52,8 +52,10 @@ Frontend Mentor is a platform that provides a variety of front-end coding challe
 To view the source code of the projects in this repository, follow these steps:
 
 1. Clone this repository to your local machine using `git clone https://github.com/your-username/frontend-mentor.git`
-2. Navigate to the project folder: `cd project-name`
-3. Open the project in your preferred code editor.
-4. Explore the code, make changes, and experiment with different features.
+2. Choose whether you want to view Front-end or Back-end projects: `cd type`
+3. Choose difficulty: `cd difficulty`
+4. Navigate to the project folder: `cd project-name`
+5. Open the project in your preferred code editor.
+6. Explore the code, make changes, and experiment with different features.
 
 
