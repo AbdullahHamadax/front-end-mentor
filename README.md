@@ -41,8 +41,9 @@ Frontend Mentor is a platform that provides a variety of front-end coding challe
 | Technologies Used | Tags  | Challenge | Live | Code | Price |
 | --- | --- | --- | --- | --- | --- |
 | HTML, TailwindCSS | HTML--CSS | Fylo data storage component | [Live](https://fylo-data-storage-component-gamma-one.vercel.app/) | [Code](./Front-end/Junior/fylo-data-storage-component) | Free |
-| HTML, TailwindCSS | HTML--CSS | Bento Grid | [Live]() | [Code](./Front-end/Junior/Bento-grid) | Free |
-| HTML, TailwindCSS | HTML--CSS | Testimonials Grid Section | [Live]() | [Code](./Front-end/Junior/Testimonials-grid) | Free |
+| HTML, TailwindCSS | HTML--CSS | Bento Grid | [Live](https://bento-grid-virid.vercel.app/) | [Code](./Front-end/Junior/Bento-grid) | Free |
+| HTML, TailwindCSS | HTML--CSS | Testimonials Grid Section | [Live](https://testimonials-grid-section-drab-delta.vercel.app/) | [Code](./Front-end/Junior/Testimonials-grid) | Free |
+| HTML, TailwindCSS | HTML--CSS | Tech book club landing page| [Live](https://tech-book-landing-page.vercel.app/) | [Code]() | Free |
 
 
 
