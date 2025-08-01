@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+      input[type="range"] {
+        -webkit-appearance: none;
+        width: 100%;
+        height: 0.688rem;
+        background: #18171f;
+        outline: none;
+        transition: background 0.3s;
+      }
+
+      input[type="range"]::-webkit-slider-runnable-track {
+        height: 0.5rem;
+        background: linear-gradient(
+          to right,
+          #10b981 var(--progress, 0%),
+          #18171f var(--progress, 0%)
+        );
+        border-radius: 5px;
+      }
+
+      input[type="range"]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        width: 2rem;
+        height: 2rem;
+        background: white;
+        border-radius: 50%;
+        cursor: pointer;
+        margin-top: -0.7rem;
+      }
+
+      input[type="checkbox"] {
+        appearance: none;
+      }
+
+      input[type="checkbox"]:checked {
+        background-color: #10b981;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'%3E%3Cpath d='M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-position: center;
+        border: 2px solid #10b981;
+        background-size: 125%;
+      }
+    </style>
+    <title>Password generator</title>
+  </head>
+  <body class="bg-[#111827] text-white p-5 font-medium flex flex-col">
+    <div class="flex flex-col items-center justify-center gap-5">
+      <h1 class="text-white text-center mt-[4rem] text-2xl">
+        <span class="text-[#4ADF86]">Password</span> Generator
+      </h1>
+
+      <div
+        class="bg-[#1F2937] flex justify-between p-5 items-center max-w-xl w-full rounded-md"
+      >
+        <p
+          class="text-[1.2rem] sm:text-[2rem] font-bold text-[#4ADF86]"
+          id="generated-password"
+        ></p>
+        <i
+          data-lucide="files"
+          class="cursor-pointer hover:text-[#10B981] transition"
+          onclick="copyToClipboard()"
+        ></i>
+      </div>
+      <div class="bg-[#1F2937] max-w-xl w-full p-5 rounded-md">
+        <div class="flex items-center justify-between mb-5">
+          <p class="text-xl">Character Length</p>
+          <p id="charLengthDisplay" class="text-[#10B981] text-4xl">5</p>
+        </div>
+        <input
+          id="charLengthSlider"
+          class="w-full accent-[#10B981]"
+          type="range"
+          min="5"
+          max="20"
+          value="5"
+        />
+        <div class="flex flex-col gap-5 mt-[3rem]">
+          <label class="flex items-center gap-7">
+            <input
+              type="checkbox"
+              class="w-full h-6 border rounded-sm cursor-pointer max-w-6"
+              id="uppercase-checkbox"
+            />
+            <p class="text-[1.2rem]">Include Uppercase Letters</p>
+          </label>
+
+          <label class="flex items-center gap-7">
+            <input
+              type="checkbox"
+              checked
+              class="w-full h-6 border rounded-sm cursor-pointer max-w-6"
+              id="lowercase-checkbox"
+            />
+            <p class="text-[1.2rem]">Include Lowercase Letters</p>
+          </label>
+
+          <label class="flex items-center gap-7">
+            <input
+              type="checkbox"
+              class="w-full h-6 border rounded-sm cursor-pointer max-w-6"
+              id="numbers-checkbox"
+            />
+            <p class="text-[1.2rem]">Include Numbers</p>
+          </label>
+
+          <label class="flex items-center gap-7">
+            <input
+              type="checkbox"
+              class="w-full h-6 border rounded-sm cursor-pointer max-w-6"
+              id="symbols-checkbox"
+            />
+            <p class="text-[1.2rem]">Include Symbols</p>
+          </label>
+        </div>
+
+        <div
+          class="bg-[#273549] flex items-center justify-between p-5 mt-7 rounded-md"
+        >
+          <p class="text-xl text-white uppercase sm:text-2xl">strength</p>
+          <div class="flex gap-5">
+            <p class="text-xl uppercase sm:text-2xl" id="password-strength"></p>
+            <div class="hidden sm:flex sm:gap-2 sm:items-center">
+              <div class="w-[0.7rem] border-2 h-7" id="first-bar"></div>
+              <div class="w-[0.7rem] border-2 h-7" id="second-bar"></div>
+              <div class="w-[0.7rem] border-2 h-7" id="third-bar"></div>
+              <div class="w-[0.7rem] border-2 h-7" id="fourth-bar"></div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="group uppercase bg-[#10B981] hover:bg-[#10b981cc] rounded-md px-5 py-8 max-w-xl w-full text-[#18171F] flex items-center justify-center gap-3 mt-5 transition"
+          onclick="generateRandomPassword()"
+        >
+          <div class="flex items-center gap-3">
+            <p class="text-2xl">generate</p>
+            <i
+              data-lucide="arrow-right"
+              class="transition-transform duration-300 ease-in-out size-5 group-hover:translate-x-2"
+            ></i>
+          </div>
+        </button>
+      </div>
+
+      <p>
+        Made with 💖 by
+        <a
+          href="https://github.com/AbdullahHamadax"
+          class="hover:underline animate-pulse"
+          >Abdallah Hamada</a
+        >
+      </p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

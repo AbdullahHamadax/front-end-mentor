@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Add anime.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <style>
+      body {
+        font-family: "Inconsolata", sans-serif;
+        background-image: url("assets/images/pattern-lines.svg"),
+          url("assets/images/pattern-squiggly-line-top.svg"),
+          url("assets/images/pattern-squiggly-line-bottom-mobile-tablet.svg"),
+          url("assets/images/background-mobile.png");
+        background-size: cover, 150px, 250px, cover;
+        background-position: center, top 10px right, bottom left, center;
+        background-repeat: no-repeat, no-repeat, no-repeat;
+      }
+
+      @media only screen and (min-width: 751px) {
+        body {
+          background-image: url("assets/images/pattern-lines.svg"),
+            url("assets/images/pattern-squiggly-line-top.svg"),
+            url("assets/images/pattern-squiggly-line-bottom-mobile-tablet.svg"),
+            url("assets/images/background-tablet.png");
+        }
+      }
+
+      @media only screen and (min-width: 1024px) {
+        body {
+          background-image: url("assets/images/pattern-lines.svg"),
+            url("assets/images/pattern-squiggly-line-top.svg"),
+            url("assets/images/pattern-squiggly-line-bottom-desktop.svg"),
+            url("assets/images/background-desktop.png");
+          background-size: cover, 600px, 600px, cover;
+          background-position: center, top 50px right, bottom left, center;
+        }
+      }
+
+      .error-icon {
+        width: 1rem;
+        height: 1rem;
+        flex-shrink: 0;
+      }
+    </style>
+
+    <title>Conference ticket generator</title>
+  </head>
+  <body class="min-h-screen px-5 text-white">
+    <main>
+      <img
+        src="assets/images/logo-full.svg"
+        loading="lazy"
+        alt="Coding Conf logo"
+        class="m-auto mt-9"
+      />
+      <div class="flex flex-col hidden text-center mt-9 gap-y-5" id="ticket">
+        <h1 class="text-3xl font-bold text-center ticket-detail">
+          Congrats,
+          <span
+            class="bg-gradient-to-r from-[#f57261] to-white bg-clip-text text-transparent"
+            id="submitted-name"
+          ></span>
+          Your ticket is ready.
+        </h1>
+        <p class="text-[#d2d1d6] text-center text-lg ticket-detail">
+          We've emailed your ticket to
+          <span class="text-[#f57261]" id="submitted-email"></span>
+          and will send updates in the run up to the event.
+        </p>
+        <div
+          class="relative max-w-sm mx-auto mt-20 ticket-detail"
+          id="ticket-card"
+        >
+          <img src="assets/images/pattern-ticket.svg" alt="ticket image" />
+          <img
+            src="assets/images/logo-full.svg"
+            alt="Coding Conf Logo"
+            loading="lazy"
+            class="absolute top-5 left-5"
+          />
+
+          <img
+            src="assets/images/image-avatar.jpg"
+            alt="User avatar"
+            class="absolute rounded-md w-14 bottom-3 left-5"
+            id="user-avatar"
+          />
+
+          <div class="absolute text-white left-24 bottom-4">
+            <p class="text-xl font-medium" id="ticket-name">Jonatan Kristof</p>
+            <div class="flex items-center gap-1">
+              <img src="assets/images/icon-github.svg" alt="github icon" />
+              <p class="text-xs opacity-70" id="ticket-github-username">
+                @jonatankristof0101
+              </p>
+            </div>
+          </div>
+
+          <p
+            class="absolute right-0 text-2xl rotate-90 bottom-[70px]"
+            id="ticket-id"
+          ></p>
+        </div>
+      </div>
+
+      <div id="user-form">
+        <header class="flex flex-col">
+          <div class="flex flex-col gap-3 mt-9">
+            <h1 class="text-3xl font-bold text-center text-white">
+              Your journey to Coding Conf 2025 Starts Here!
+            </h1>
+            <p class="text-[#d2d1d6] text-center text-lg">
+              Secure your spot at next year's biggest coding conference.
+            </p>
+          </div>
+        </header>
+        <section class="mt-9">
+          <form class="mb-5">
+            <div class="flex flex-col w-full max-w-xl m-auto gap-y-4">
+              <label for="uploadAvatar" class="text-xl text-[#d2d1d6]"
+                >Upload Avatar</label
+              >
+              <label
+                for="dropzone-file"
+                id="dropzone"
+                class="flex flex-col items-center justify-center border-2 border-[#8784a4] border-dashed rounded-xl cursor-pointer bg-[#8784a4] bg-opacity-20 hover:bg-[#8784a4] hover:bg-opacity-50 outline-none focus:outline-[#8784a4] outline-2 outline-offset-[3px]"
+              >
+                <div
+                  class="flex flex-col items-center justify-center pt-5 pb-6"
+                >
+                  <div
+                    class="border mb-7 rounded-2xl px-[0.80rem] py-3 bg-[#4b486a] border-[#8784a4] border-opacity-50 bg-opacity-60"
+                  >
+                    <img
+                      src="assets/images/icon-upload.svg"
+                      class="size-11 animate-bounce"
+                      alt="upload icon"
+                    />
+                  </div>
+                  <p class="mb-2 text-2xl text-[#d2d1d6] text-center">
+                    Click to upload your image
+                  </p>
+                </div>
+
+                <input id="dropzone-file" type="file" class="hidden" />
+              </label>
+              <div
+                class="flex items-center gap-[0.5rem] text-[#d2d1d6]"
+                id="photo-feedback"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="error-icon"
+                  fill="none"
+                  viewBox="0 0 16 16"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M2 8a6 6 0 1 0 12 0A6 6 0 0 0 2 8Z"
+                  />
+                  <path
+                    fill="currentColor"
+                    d="M8.004 10.462V7.596ZM8 5.57v-.042Z"
+                  />
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M8.004 10.462V7.596M8 5.569v-.042"
+                  />
+                </svg>
+                <p class="text-lg">
+                  Upload your photo (JPG or PNG, max size: 500KB).
+                </p>
+              </div>
+
+              <label for="fullName" class="text-xl text-[#d2d1d6]"
+                >Full Name</label
+              >
+              <input
+                type="text"
+                placeholder="John Doe"
+                name="fullName"
+                id="name-input"
+                required
+                class="p-4 text-xl border-[1.5px] rounded-xl py-4 cursor-pointer bg-[#4b486a] bg-opacity-30 border-[#8784a4] hover:bg-[#8784a4] hover:bg-opacity-50 outline-none focus:outline-[#8784a4] outline-2 outline-offset-[3px]"
+              />
+
+              <div
+                class="flex items-center gap-[0.5rem] text-[#e16151] animate-pulse transition hidden text-lg"
+                id="full-name-feedback"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="error-icon"
+                  fill="none"
+                  viewBox="0 0 16 16"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M2 8a6 6 0 1 0 12 0A6 6 0 0 0 2 8Z"
+                  />
+                  <path
+                    fill="currentColor"
+                    d="M8.004 10.462V7.596ZM8 5.57v-.042Z"
+                  />
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M8.004 10.462V7.596M8 5.569v-.042"
+                  />
+                </svg>
+                <p class="text-lg"></p>
+              </div>
+
+              <label for="email" class="text-xl text-[#d2d1d6]"
+                >Email Address</label
+              >
+              <input
+                type="email"
+                name="email"
+                id="email-input"
+                placeholder="example@email.com"
+                required
+                class="p-4 text-xl border-[1.5px] rounded-xl py-4 cursor-pointer bg-[#4b486a] bg-opacity-30 border-[#8784a4] hover:bg-[#8784a4] hover:bg-opacity-50 outline-none focus:outline-[#8784a4] outline-2 outline-offset-[3px]"
+              />
+              <div
+                class="flex items-center gap-[0.5rem] text-[#e16151] animate-pulse transition hidden text-lg"
+                id="email-feedback"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="error-icon"
+                  fill="none"
+                  viewBox="0 0 16 16"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M2 8a6 6 0 1 0 12 0A6 6 0 0 0 2 8Z"
+                  />
+                  <path
+                    fill="currentColor"
+                    d="M8.004 10.462V7.596ZM8 5.57v-.042Z"
+                  />
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M8.004 10.462V7.596M8 5.569v-.042"
+                  />
+                </svg>
+                <p class="text-lg"></p>
+              </div>
+              <label for="githubUsername" class="text-xl text-[#d2d1d6]"
+                >Github Username</label
+              >
+              <input
+                type="text"
+                name="githubUsername"
+                id="github-username-input"
+                placeholder="@yourusername"
+                required
+                class="p-4 text-xl border-[1.5px] rounded-xl py-4 cursor-pointer bg-[#4b486a] bg-opacity-30 border-[#8784a4] hover:bg-[#8784a4] hover:bg-opacity-50 outline-none focus:outline-[#8784a4] outline-2 outline-offset-[3px]"
+              />
+              <div
+                class="flex items-center gap-[0.5rem] text-[#e16151] animate-pulse transition hidden text-lg"
+                id="github-username-feedback"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="error-icon"
+                  fill="none"
+                  viewBox="0 0 16 16"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M2 8a6 6 0 1 0 12 0A6 6 0 0 0 2 8Z"
+                  />
+                  <path
+                    fill="currentColor"
+                    d="M8.004 10.462V7.596ZM8 5.57v-.042Z"
+                  />
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M8.004 10.462V7.596M8 5.569v-.042"
+                  />
+                </svg>
+                <p class="text-lg"></p>
+              </div>
+              <button
+                class="text-black border-b-transparent bg-[#e16151] rounded-xl p-5 font-bold text-xl mt-3 hover:border-b-[7px] transition-all hover:border-[#f57261] outline-none focus:outline-white outline-1 outline-offset-[3px]"
+              >
+                Generate My Ticket
+              </button>
+            </div>
+          </form>
+        </section>
+      </div>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
