@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Join the ultimate tech book club for curated reads, engaging discussions, and skill-building. Level up with fellow tech enthusiasts!"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Martian+Mono:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Tech book club</title>
+
+    <style>
+      body {
+        font-family: "Martian Mono";
+      }
+
+      .inter-text {
+        font-family: "Inter";
+      }
+
+      .text-gradient {
+        background-image: linear-gradient(
+          107deg,
+          #ff9a60 -11.37%,
+          #062630 61.84%
+        );
+        color: transparent;
+        background-clip: text;
+      }
+
+      .button-gradient {
+        background: linear-gradient(
+          90deg,
+          rgb(255, 226, 209),
+          rgb(255, 245, 239)
+        );
+      }
+
+      .button-custom:hover {
+        background: linear-gradient(
+          90deg,
+          rgb(255, 226, 209),
+          rgb(255, 245, 239)
+        );
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="p-4 bg-[url(assets/images/pattern-light-bg.svg)] bg-[#FAF5F3] flex flex-col lg:p-12 relative overflow-hidden"
+    >
+      <img
+        src="assets/images/logo.svg"
+        class="mb-[3rem] self-start"
+        alt="Logo of Tech book club"
+      />
+      <div class="flex flex-col lg:flex-row lg:justify-between lg:items-center">
+        <div class="flex flex-col gap-6 lg:max-w-[45%]">
+          <h1
+            class="lg:text-[3.875rem] leading-[120%] tracking-[-0.125rem] text-[2.375rem] font-bold text-gradient"
+          >
+            Join the ultimate tech book club
+          </h1>
+          <p
+            class="text-[#385159] text-[1.25rem] tracking-[-0.03rem] leading-[140%] inter-text"
+          >
+            Turn your reading time into learning time with fellow tech
+            enthusiasts. Get curated recommendations, join vibrant discussions,
+            and level up your skills one chapter at a time.
+          </p>
+          <button
+            class="font-bold text-[1rem] leading-[130%] tracking-[0.06rem] text-[#062630] text-left uppercase border-[0.13rem] border-[#062630] rounded-[0.5rem] bg-[#FFF5EF] flex gap-5 items-center max-w-[25rem] py-[1.25rem] px-[1.5rem] hover:bg-[linear-gradient(90deg,rgb(255,226,209),rgb(255,245,239))] cursor-pointer focus:ring-4 focus:ring-[#385159]"
+          >
+            Review membership options
+            <img
+              src="assets/images/icon-arrow-down.svg"
+              class="transition animate-bounce size-7"
+            />
+          </button>
+
+          <div class="flex items-center gap-3">
+            <img src="assets/images/image-avatars.webp" class="w-[6.88rem]" />
+            <div>
+              <div class="flex">
+                <img src="assets/images/icon-star.svg" alt="star icon" />
+                <img src="assets/images/icon-star.svg" alt="star icon" />
+                <img src="assets/images/icon-star.svg" alt="star icon" />
+                <img src="assets/images/icon-star.svg" alt="star icon" />
+                <img src="assets/images/icon-star.svg" alt="star icon" />
+              </div>
+              <p
+                class="text-[#385159] text-[0.88rem] leading-[120%] tracking-[-0.06rem] text-left"
+              >
+                200+ developers joined already
+              </p>
+            </div>
+          </div>
+        </div>
+        <img
+          src="assets/images/image-hero-desktop.webp"
+          class="mt-[4.648rem] rounded-lg lg:mt-0 lg:max-w-[33rem] z-10 w-full self-center"
+          alt="Friends studying together in a home library"
+        />
+        <img
+          src="assets/images/pattern-glow.svg"
+          alt="image of a glow pattern"
+          class="md:block md:absolute md:bottom-0 md:right-0 md:translate-x-[50%] md:translate-y-[50%] md:size-max hidden"
+        />
+      </div>
+    </div>
+
+    <div class="flex flex-col p-4 bg-white">
+      <div
+        class="flex flex-col gap-8 md:flex-col lg:flex-row-reverse lg:justify-center lg:mt-12"
+      >
+        <div class="flex flex-col max-w-xl mt-16 lg:mt-5">
+          <h2
+            class="text-[2.13rem] leading-[130%] tracking-[-0.13rem] text-[#062630] mb-[1.5rem]"
+          >
+            Read together, grow together
+          </h2>
+
+          <ul
+            class="flex flex-col text-[#385159] text-[1.25rem] tracking-[-0.03rem] leading-[140%] gap-4 inter-text"
+          >
+            <li class="flex gap-[0.6rem]">
+              <img src="assets/images/icon-check.svg" alt="checkmark icon" />
+              <p>Monthly curated tech reads selected by industry experts</p>
+            </li>
+            <li class="flex gap-[0.6rem]">
+              <img src="assets/images/icon-check.svg" alt="checkmark icon" />
+              <p>Virtual and in-person meetups for deep-dive discussions</p>
+            </li>
+            <li class="flex gap-[0.6rem]">
+              <img src="assets/images/icon-check.svg" alt="checkmark icon" />
+              <p>Early access to new tech book releases</p>
+            </li>
+            <li class="flex gap-[0.6rem]">
+              <img src="assets/images/icon-check.svg" alt="checkmark icon" />
+              <p>Author Q&A sessions with tech thought leaders</p>
+            </li>
+          </ul>
+        </div>
+
+        <img
+          src="assets/images/image-read-together-tablet.webp"
+          alt="People reading books around a coffee table"
+          class="w-full rounded-lg lg:max-w-sm"
+        />
+      </div>
+
+      <div
+        class="flex flex-col gap-8 md:flex-col lg:flex-row lg:justify-center lg:mt-28 mt-14"
+      >
+        <div class="flex flex-col max-w-lg">
+          <h2
+            class="text-[2.13rem] font-semibold text-[#062630] tracking-[-0.13rem] leading-[130%]"
+          >
+            Not your average book
+            <span
+              class="bg-[url(assets/images/pattern-circle.png)] bg-cover bg-center px-2"
+              >club</span
+            >
+          </h2>
+          <p
+            class="text-[#385159] text-[1.25rem] tracking-[-0.03rem] inter-text"
+          >
+            Connect with a community that speaks your language - from Python to
+            TypeScript and everything in between. Our discussions blend
+            technical depth with practical applications.
+          </p>
+        </div>
+
+        <div class="relative">
+          <img
+            src="assets/images/image-not-average-desktop.webp"
+            alt="Group of people discussing a book in a cozy libraryr"
+            class="w-full rounded-lg lg:max-w-sm"
+          />
+
+          <img
+            src="assets/images/logos-tech.svg"
+            alt="Technologies"
+            class="absolute bottom-0 left-0 hidden lg:w-28 lg:block"
+          />
+        </div>
+      </div>
+
+      <div
+        class="hidden lg:block bg-[#FAF5F3] bg-[url(assets/images/pattern-light-bg.svg)] relative overflow-hidden mt-28 rounded-[0.75rem]"
+      >
+        <img
+          src="assets/images/pattern-glow.svg"
+          alt="Image of a glow pattern"
+          class="lg:block lg:absolute lg:bottom-0 lg:right-0 lg:translate-x-[50%] lg:translate-y-[50%] lg:size-[50rem] hidden"
+        />
+        <h2
+          class="text-center text-[3.13rem] font-semibold leading-[120%] tracking-[-4%] text-[#062630] p-16"
+        >
+          Your tech reading journey
+        </h2>
+
+        <div class="flex items-center justify-center gap-12 p-16">
+          <div class="flex flex-col gap-6">
+            <div class="flex items-center justify-between">
+              <div
+                class="box-border inline border-[0.13rem] w-fit py-[0.25rem] px-[0.80rem] rounded-[0.25rem] border-[#062630] text-[1.5rem] tracking-[-1%] cursor-pointer transition hover:translate-y-2"
+              >
+                1
+              </div>
+              <img
+                src="assets/images/pattern-arrow.svg"
+                alt="arrow icon"
+                class="size-24"
+              />
+            </div>
+            <p
+              class="text-[#062630] font-semibold text-[1.13rem] leading-[130%] tracking-[-1%]"
+            >
+              Choose your membership tier
+            </p>
+          </div>
+          <div class="flex flex-col gap-6">
+            <div class="flex items-center justify-between">
+              <div
+                class="box-border inline border-[0.13rem] w-fit py-[0.25rem] px-[0.80rem] rounded-[0.25rem] border-[#062630] text-[1.5rem] tracking-[-1%] cursor-pointer transition hover:translate-y-2"
+              >
+                2
+              </div>
+              <img
+                src="assets/images/pattern-arrow.svg"
+                alt="arrow icon"
+                class="size-24"
+              />
+            </div>
+            <p
+              class="text-[#062630] font-semibold text-[1.13rem] leading-[130%] tracking-[-1%]"
+            >
+              Get your monthly book selection
+            </p>
+          </div>
+          <div class="flex flex-col gap-6">
+            <div class="flex items-center justify-between">
+              <div
+                class="box-border inline border-[0.13rem] w-fit py-[0.25rem] px-[0.80rem] rounded-[0.25rem] border-[#062630] text-[1.5rem] tracking-[-1%] cursor-pointer transition hover:translate-y-2"
+              >
+                3
+              </div>
+              <img
+                src="assets/images/pattern-arrow.svg"
+                alt="arrow icon"
+                class="size-24"
+              />
+            </div>
+            <p
+              class="text-[#062630] font-semibold text-[1.13rem] leading-[130%] tracking-[-1%]"
+            >
+              Join our discussion forums
+            </p>
+          </div>
+          <div class="flex flex-col gap-6">
+            <div class="flex items-center justify-between">
+              <div
+                class="box-border inline border-[0.13rem] w-fit py-[0.25rem] px-[0.80rem] rounded-[0.25rem] border-[#062630] text-[1.5rem] tracking-[-1%] cursor-pointer transition hover:translate-y-2"
+              >
+                4
+              </div>
+              <img
+                src="assets/images/pattern-arrow.svg"
+                alt="arrow icon"
+                class="invisible size-24"
+              />
+            </div>
+            <p
+              class="text-[#062630] font-semibold text-[1.13rem] leading-[130%] tracking-[-1%]"
+            >
+              Attend exclusive meetups
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <h2
+        class="text-[2.13rem] tracking-[-0.13rem] mt-[3.75rem] text-[#062630] leading-[130%] lg:text-center"
+      >
+        Membership options
+      </h2>
+
+      <div
+        class="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-center mt-[3.75rem]"
+      >
+        <div
+          class="bg-white rounded-[0.5rem] shadow-xl p-6 flex-1 lg:max-w-[17rem]"
+        >
+          <h3
+            class="text-[1.5rem] tracking-[-0.06rem] text-[#062630] leading-[110%] mb-6"
+          >
+            Starter
+          </h3>
+          <p
+            class="text-[1.25rem] text-[#385159] tracking-[-0.3rem] leading-[140%]"
+          >
+            <span
+              class="text-[2.13rem] tracking-[-0.13rem] text-[#062630] leading-[130%] font-semibold"
+              >$19</span
+            >/month
+          </p>
+
+          <hr class="border-[#E6E1DF] my-6" />
+          <ul
+            class="flex flex-col text-[#385159] text-[1.25rem] tracking-[-0.03rem] leading-[140%] gap-4 inter-text"
+          >
+            <li class="flex gap-[0.6rem] items-center">
+              <img
+                src="assets/images/icon-check.svg"
+                alt="checkmark icon"
+                class="size-[1.25rem]"
+              />
+              <p>1 book/month</p>
+            </li>
+            <li class="flex gap-[0.6rem] items-center">
+              <img
+                src="assets/images/icon-check.svg"
+                alt="checkmark icon"
+                class="size-[1.25rem]"
+              />
+              <p>Online forums</p>
+            </li>
+          </ul>
+
+          <button
+            class="bg-[#FFF5EF] py-5 rounded-[0.5rem] border-[0.13rem] w-full mt-8 border-[#062630] text-[#062630] font-semibold uppercase hover:bg-[linear-gradient(90deg,rgb(255,226,209),rgb(255,245,239))] cursor-pointer focus:ring-4 focus:ring-[#385159]"
+          >
+            Subscribe Now
+          </button>
+        </div>
+
+        <div
+          class="bg-[#FAF5F3] rounded-[0.5rem] shadow-xl p-6 relative overflow-hidden flex-1 lg:max-w-[21rem]"
+        >
+          <img
+            src="assets/images/pattern-glow.svg"
+            alt="image of a glow pattern"
+            class="absolute bottom-0 right-0 translate-x-[50%] translate-y-[50%] size-max"
+          />
+          <h2
+            class="text-[1.5rem] tracking-[-0.06rem] text-[#062630] leading-[110%] mb-6"
+          >
+            Pro
+          </h2>
+          <p
+            class="text-[1.25rem] text-[#385159] tracking-[-0.3rem] leading-[140%]"
+          >
+            <span
+              class="text-[2.13rem] tracking-[-0.13rem] text-[#062630] leading-[130%] font-semibold"
+              >$29</span
+            >/month
+          </p>
+
+          <hr class="border-[#E6E1DF] my-6" />
+          <ul
+            class="flex flex-col text-[#385159] text-[1.25rem] tracking-[-0.03rem] leading-[140%] gap-4 inter-text"
+          >
+            <li class="flex gap-[0.6rem] items-center">
+              <img
+                src="assets/images/icon-check.svg"
+                alt="checkmark icon"
+                class="size-[1.25rem]"
+              />
+              <p>2 books/month</p>
+            </li>
+            <li class="flex gap-[0.6rem] items-center">
+              <img
+                src="assets/images/icon-check.svg"
+                alt="checkmark icon"
+                class="size-[1.25rem]"
+              />
+              <p>Virtual meetups</p>
+            </li>
+          </ul>
+
+          <button
+            class="bg-[#FFF5EF] py-5 rounded-[0.5rem] border-[0.13rem] w-full mt-8 border-[#062630] text-[#062630] font-semibold uppercase hover:bg-[linear-gradient(90deg,rgb(255,226,209),rgb(255,245,239))] cursor-pointer focus:ring-4 focus:ring-[#385159]"
+          >
+            Subscribe Now
+          </button>
+        </div>
+
+        <div
+          class="bg-white rounded-[0.5rem] shadow-xl p-6 flex-1 lg:max-w-[17rem]"
+        >
+          <h3
+            class="text-[1.5rem] tracking-[-0.06rem] text-[#062630] leading-[110%] mb-6"
+          >
+            Enterprise
+          </h3>
+          <p
+            class="text-[2.13rem] tracking-[-0.13rem] text-[#062630] leading-[130%] font-semibold"
+          >
+            Custom
+          </p>
+          <hr class="border-[#E6E1DF] my-6" />
+          <ul
+            class="flex flex-col text-[#385159] text-[1.25rem] tracking-[-0.03rem] leading-[140%] gap-4 inter-text"
+          >
+            <li class="flex gap-[0.6rem] items-center">
+              <img
+                src="assets/images/icon-check.svg"
+                alt="checkmark icon"
+                class="size-[1.25rem]"
+              />
+              <p>Team access</p>
+            </li>
+            <li class="flex gap-[0.6rem] items-center">
+              <img
+                src="assets/images/icon-check.svg"
+                alt="checkmark icon"
+                class="size-[1.25rem]"
+              />
+              <p>Private sessions</p>
+            </li>
+          </ul>
+
+          <button
+            class="bg-[#FFF5EF] py-5 rounded-[0.5rem] border-[0.13rem] w-full mt-8 border-[#062630] text-[#062630] font-semibold uppercase hover:bg-[linear-gradient(90deg,rgb(255,226,209),rgb(255,245,239))] cursor-pointer focus:ring-4 focus:ring-[#385159]"
+          >
+            Talk to us
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-col p-3 mt-10 lg:items-center lg:text-center">
+      <div class="flex gap-2">
+        <img src="assets/images/icon-star.svg" alt="star icon" />
+        <img src="assets/images/icon-star.svg" alt="star icon" />
+        <img src="assets/images/icon-star.svg" alt="star icon" />
+        <img src="assets/images/icon-star.svg" alt="star icon" />
+        <img src="assets/images/icon-star.svg" alt="star icon" />
+      </div>
+
+      <blockquote
+        class="text-[#062630] text-[1.5rem] leading-[130%] font-semibold mt-8"
+      >
+        "This book club transformed my technical reading from a solitary
+        activity into an enriching community experience. The discussions are
+        gold!"
+      </blockquote>
+      <p class="text-[#385159] text-[1rem] mt-8 mb-16">
+        Sarah Chen, Software Architect
+      </p>
+    </div>
+
+    <footer
+      class="bg-[#062630] bg-[url(assets/images/pattern-dark-bg.svg)] rounded-tl-[1rem] rounded-tr-[1rem] py-12 text-center px-4 md:px-0"
+    >
+      <div class="flex flex-col items-center justify-center gap-10">
+        <h2
+          class="text-[#FAF5F3] text-[2.13rem] tracking-[-0.13rem] leading-[130%] font-semibold"
+        >
+          Ready to debug your reading list?
+        </h2>
+        <button
+          class="font-bold text-[1rem] leading-[130%] tracking-[0.06rem] text-white uppercase border-[0.13rem] border-white rounded-[0.5rem] flex gap-5 items-center max-w-lg py-[1.25rem] px-[1.5rem] hover:bg-[linear-gradient(90deg,rgb(56,81,89),rgb(6,38,48))] cursor-pointer focus:outline-none focus:ring-4 focus:ring-[#385159] focus:ring-offset-2 focus:ring-offset-[#062630]"
+        >
+          Review membership options
+          <img
+            src="assets/images/icon-arrow-up.svg"
+            class="transition size-7 animate-bounce"
+            alt="arrow up icon"
+          />
+        </button>
+
+        <div class="flex items-center gap-3">
+          <img src="assets/images/image-avatars.webp" class="w-[6.88rem]" />
+          <div>
+            <div class="flex">
+              <img src="assets/images/icon-star.svg" alt="star icon" />
+              <img src="assets/images/icon-star.svg" alt="star icon" />
+              <img src="assets/images/icon-star.svg" alt="star icon" />
+              <img src="assets/images/icon-star.svg" alt="star icon" />
+              <img src="assets/images/icon-star.svg" alt="star icon" />
+            </div>
+            <p
+              class="text-[#FAF5F3] text-[0.88rem] leading-[120%] tracking-[-0.06rem] text-left"
+            >
+              200+ developers joined already
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <hr class="border-[#385159] mt-16 lg:w-full" />
+
+      <div
+        class="flex flex-col mt-20 md:flex-row md:justify-between md:items-center md:p-6 lg:px-[8.438rem]"
+      >
+        <p class="text-[#FAF5F3]">
+          © 2024 – Tech Book Club | Coded by
+          <a
+            href="https://github.com/AbdullahHamadax"
+            class="animate-pulse hover:underline"
+            >Abdallah Hamada</a
+          >
+        </p>
+        <div class="flex justify-center gap-6 mt-4">
+          <img
+            src="assets/images/logo-bluesky.svg"
+            alt="bluesky logo"
+            class="cursor-pointer"
+          />
+          <img
+            src="assets/images/logo-linkedin.svg"
+            alt="linkedin logo"
+            class="transition cursor-pointer"
+          />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -39,14 +39,14 @@ Frontend Mentor is a platform that provides a variety of front-end coding challe
 
 ### 2. Junior
 
-| Technologies Used | Tags      | Challenge                   | Live                                                              | Code                                                   | Price |
-| ----------------- | --------- | --------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------ | ----- |
-| HTML, TailwindCSS | HTML--CSS | Fylo data storage component | [Live](https://fylo-data-storage-component-gamma-one.vercel.app/) | [Code](./Front-end/Junior/fylo-data-storage-component) | Free  |
-| HTML, TailwindCSS | HTML--CSS | Bento Grid                  | [Live](https://bento-grid-virid.vercel.app/)                      | [Code](./Front-end/Junior/Bento-grid)                  | Free  |
-| HTML, TailwindCSS | HTML--CSS | Testimonials Grid Section   | [Live](https://testimonials-grid-section-drab-delta.vercel.app/)  | [Code](./Front-end/Junior/Testimonials-grid)           | Free  |
-| HTML, TailwindCSS | HTML--CSS | Tech book club landing page | [Live](https://tech-book-landing-page.vercel.app/)                | [Code](./Front-end/Junior/tech-book-landing-page)      | Free  |
-| HTML, TailwindCSS | HTML--CSS | Conference Ticket Generator | [Live](https://conference-ticket-geneator.vercel.app/)            | [Code](./Front-end/Junior/conference-ticket-generator) | Free  |
-| HTML, TailwindCSS | HTML--CSS | Password Generator          | [Live](https://password-generator-nine-roan.vercel.app/)          | [Code](./Front-end/Junior/password-generator)          | Free  |
+| Technologies Used | Tags          | Challenge                   | Live                                                              | Code                                                   | Price |
+| ----------------- | ------------- | --------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------ | ----- |
+| HTML, TailwindCSS | HTML--CSS     | Fylo data storage component | [Live](https://fylo-data-storage-component-gamma-one.vercel.app/) | [Code](./Front-end/Junior/fylo-data-storage-component) | Free  |
+| HTML, TailwindCSS | HTML--CSS     | Bento Grid                  | [Live](https://bento-grid-virid.vercel.app/)                      | [Code](./Front-end/Junior/Bento-grid)                  | Free  |
+| HTML, TailwindCSS | HTML--CSS     | Testimonials Grid Section   | [Live](https://testimonials-grid-section-drab-delta.vercel.app/)  | [Code](./Front-end/Junior/Testimonials-grid)           | Free  |
+| HTML, TailwindCSS | HTML--CSS     | Tech book club landing page | [Live](https://tech-book-landing-page.vercel.app/)                | [Code](./Front-end/Junior/tech-book-landing-page)      | Free  |
+| HTML, TailwindCSS | HTML--CSS--JS | Conference Ticket Generator | [Live](https://conference-ticket-geneator.vercel.app/)            | [Code](./Front-end/Junior/conference-ticket-generator) | Free  |
+| HTML, TailwindCSS | HTML--CSS--JS | Password Generator          | [Live](https://password-generator-nine-roan.vercel.app/)          | [Code](./Front-end/Junior/password-generator)          | Free  |
 
 ## Getting Started
 
