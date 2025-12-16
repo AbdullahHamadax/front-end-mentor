@@ -47,6 +47,7 @@ Frontend Mentor is a platform that provides a variety of front-end coding challe
 | HTML, TailwindCSS | HTML--CSS     | Tech book club landing page | [Live](https://tech-book-landing-page.vercel.app/)                | [Code](./Front-end/Junior/tech-book-landing-page)      | Free  |
 | HTML, TailwindCSS | HTML--CSS--JS | Conference Ticket Generator | [Live](https://conference-ticket-geneator.vercel.app/)            | [Code](./Front-end/Junior/conference-ticket-generator) | Free  |
 | HTML, TailwindCSS | HTML--CSS--JS | Password Generator          | [Live](https://password-generator-nine-roan.vercel.app/)          | [Code](./Front-end/Junior/password-generator)          | Free  |
+| HTML, TailwindCSS | HTML--CSS--JS | Notifications Page          | [Live](https://notifications-page-main-steel-six.vercel.app/)     | [Code](./Front-end/Junior/Notifications-page)          | Free  |
 
 ## Getting Started
 
