@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Notifications page</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-gray-400 min-h-screen">
+    <div class="bg-white h-full max-w-3xl p-5 m-auto">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-2">
+          <h1 class="font-bold text-2xl">Notifications</h1>
+          <p
+            class="unread-notifications-count bg-[#08327C] text-white font-medium px-[0.6rem] rounded-md"
+          >
+            0
+          </p>
+        </div>
+        <button
+          class="text-gray-700 cursor-pointer hover:underline font-medium"
+        >
+          Mark all as read
+        </button>
+      </div>
+      <div class="notifications-feed flex flex-col gap-2 mt-4"></div>
+    </div>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
